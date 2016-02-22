@@ -1,0 +1,30 @@
+//
+//  DesignPatterns.pch
+//  DesignPatterns
+//
+//  Created by Gautham Krishna Ballal on 22/02/16.
+//  Copyright © 2016 Gautham Krishna Ballal. All rights reserved.
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_5_0
+#warning "This project uses features only available in iOS SDK 5.0 and later."
+#endif
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import "AppDelegate.h"
+#import "UIFont+DesignPatterns.h"
+#import "UIStoryboard+DesignPatterns.h"
+#import "GKBPaddedTextField.h"
+#import "UIView+FrameSetter.h"
+#import "GKBSuperViewController.h"
+#import "ViewController.h"
+#import "CDConstants.h"
+#import "NSString+DesignPatterns.h"
+#endif
+
+#define APP_DELEGATE ((AppDelegate*)[UIApplication sharedApplication].delegate)
+#define BASE_VIEWCONTROLLER ((ViewController*)((UINavigationController*)[UIApplication sharedApplication].delegate.window.rootViewController).viewControllers[0])
