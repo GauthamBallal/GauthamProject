@@ -34,3 +34,9 @@
 #define kCDQuestionOption4 @"optionFour"
 #define kCDQuestionCorrectAnswer @"correctAnswer"
 #define kCDQuestionHint @"hint"
+
+typedef enum : NSUInteger {
+    eMVC,
+    eMMVM,
+    eMVP
+} DesignPattern;

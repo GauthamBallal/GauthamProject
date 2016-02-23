@@ -36,6 +36,12 @@
     [self pushViewController:login withAnimation:YES];
 }
 
+-(void)displayMMVMHomeController
+{
+    UIViewController *login = [[UIStoryboard gameMMVMStoryBoard] instantiateInitialViewController];
+    [self pushViewController:login withAnimation:YES];
+}
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
@@ -102,7 +108,20 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    [self displayMVCHomeController];
+    switch (indexPath.row) {
+        case eMVC:
+        {
+            [self displayMVCHomeController];
+            break;
+        }
+        case eMMVM:
+        {
+            [self displayMMVMHomeController];
+            break;
+        }
+        default:
+            break;
+    }
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section

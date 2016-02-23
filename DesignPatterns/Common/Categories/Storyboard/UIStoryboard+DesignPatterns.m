@@ -19,4 +19,9 @@
 {
     return [UIStoryboard storyboardWithName:@"MVCGameStoryboard" bundle:nil];
 }
+
++(UIStoryboard*)gameMMVMStoryBoard
+{
+    return [UIStoryboard storyboardWithName:@"MMVMGameStoryboard" bundle:nil];
+}
 @end

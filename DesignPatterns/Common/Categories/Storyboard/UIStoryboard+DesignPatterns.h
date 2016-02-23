@@ -12,4 +12,6 @@
 
 +(UIStoryboard*)loginStoryBoard;
 +(UIStoryboard*)gameMVCStoryBoard;
++(UIStoryboard*)gameMMVMStoryBoard;
+
 @end

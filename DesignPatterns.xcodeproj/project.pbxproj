@@ -105,6 +105,15 @@
 		ACB3E42A1C7B16E30070B6A5 /* UIStoryboard+DesignPatterns.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB3E4291C7B16E30070B6A5 /* UIStoryboard+DesignPatterns.m */; };
 		ACB3E42B1C7B16E30070B6A5 /* UIStoryboard+DesignPatterns.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB3E4291C7B16E30070B6A5 /* UIStoryboard+DesignPatterns.m */; };
 		ACB3E42C1C7B16E30070B6A5 /* UIStoryboard+DesignPatterns.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB3E4291C7B16E30070B6A5 /* UIStoryboard+DesignPatterns.m */; };
+		ACB8A28D1C7C6DF300ECDA20 /* MMVMPackageListingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB8A28C1C7C6DF300ECDA20 /* MMVMPackageListingViewController.m */; };
+		ACB8A28E1C7C6DF300ECDA20 /* MMVMPackageListingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB8A28C1C7C6DF300ECDA20 /* MMVMPackageListingViewController.m */; };
+		ACB8A28F1C7C6DF300ECDA20 /* MMVMPackageListingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB8A28C1C7C6DF300ECDA20 /* MMVMPackageListingViewController.m */; };
+		ACB8A2911C7C6E0600ECDA20 /* MMVMGameStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACB8A2901C7C6E0600ECDA20 /* MMVMGameStoryboard.storyboard */; };
+		ACB8A2921C7C6E0600ECDA20 /* MMVMGameStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACB8A2901C7C6E0600ECDA20 /* MMVMGameStoryboard.storyboard */; };
+		ACB8A2931C7C6E0600ECDA20 /* MMVMGameStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACB8A2901C7C6E0600ECDA20 /* MMVMGameStoryboard.storyboard */; };
+		ACB8A2971C7C6EA600ECDA20 /* MMVMPackageListingViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB8A2961C7C6EA600ECDA20 /* MMVMPackageListingViewModel.m */; };
+		ACB8A2981C7C6EA600ECDA20 /* MMVMPackageListingViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB8A2961C7C6EA600ECDA20 /* MMVMPackageListingViewModel.m */; };
+		ACB8A2991C7C6EA600ECDA20 /* MMVMPackageListingViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB8A2961C7C6EA600ECDA20 /* MMVMPackageListingViewModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -196,6 +205,11 @@
 		ACB3E4241C7B16A80070B6A5 /* UIFont+DesignPatterns.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+DesignPatterns.m"; sourceTree = "<group>"; };
 		ACB3E4281C7B16E30070B6A5 /* UIStoryboard+DesignPatterns.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIStoryboard+DesignPatterns.h"; sourceTree = "<group>"; };
 		ACB3E4291C7B16E30070B6A5 /* UIStoryboard+DesignPatterns.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIStoryboard+DesignPatterns.m"; sourceTree = "<group>"; };
+		ACB8A28B1C7C6DF300ECDA20 /* MMVMPackageListingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMVMPackageListingViewController.h; sourceTree = "<group>"; };
+		ACB8A28C1C7C6DF300ECDA20 /* MMVMPackageListingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMVMPackageListingViewController.m; sourceTree = "<group>"; };
+		ACB8A2901C7C6E0600ECDA20 /* MMVMGameStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MMVMGameStoryboard.storyboard; sourceTree = "<group>"; };
+		ACB8A2951C7C6EA600ECDA20 /* MMVMPackageListingViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMVMPackageListingViewModel.h; sourceTree = "<group>"; };
+		ACB8A2961C7C6EA600ECDA20 /* MMVMPackageListingViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMVMPackageListingViewModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -255,6 +269,7 @@
 				ACB3E3461C7AE1530070B6A5 /* Assets.xcassets */,
 				ACB3E3481C7AE1530070B6A5 /* LaunchScreen.storyboard */,
 				ACB3E34B1C7AE1530070B6A5 /* Info.plist */,
+				ACB8A2851C7C6D9300ECDA20 /* MMVM */,
 				ACB3E3D71C7AE24B0070B6A5 /* MVC */,
 				ACB3E36D1C7AE18F0070B6A5 /* Common */,
 				ACB3E40F1C7AE2D00070B6A5 /* Resources */,
@@ -580,6 +595,58 @@
 			path = Fonts;
 			sourceTree = "<group>";
 		};
+		ACB8A2851C7C6D9300ECDA20 /* MMVM */ = {
+			isa = PBXGroup;
+			children = (
+				ACB8A28A1C7C6DC400ECDA20 /* ViewModel */,
+				ACB8A2861C7C6D9300ECDA20 /* ViewController */,
+				ACB8A2901C7C6E0600ECDA20 /* MMVMGameStoryboard.storyboard */,
+			);
+			path = MMVM;
+			sourceTree = "<group>";
+		};
+		ACB8A2861C7C6D9300ECDA20 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				ACB8A2871C7C6D9300ECDA20 /* GamePlay */,
+				ACB8A2881C7C6D9300ECDA20 /* PackageListing */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		ACB8A2871C7C6D9300ECDA20 /* GamePlay */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = GamePlay;
+			sourceTree = "<group>";
+		};
+		ACB8A2881C7C6D9300ECDA20 /* PackageListing */ = {
+			isa = PBXGroup;
+			children = (
+				ACB8A28B1C7C6DF300ECDA20 /* MMVMPackageListingViewController.h */,
+				ACB8A28C1C7C6DF300ECDA20 /* MMVMPackageListingViewController.m */,
+			);
+			path = PackageListing;
+			sourceTree = "<group>";
+		};
+		ACB8A28A1C7C6DC400ECDA20 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				ACB8A2941C7C6E8D00ECDA20 /* PackageListing */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		ACB8A2941C7C6E8D00ECDA20 /* PackageListing */ = {
+			isa = PBXGroup;
+			children = (
+				ACB8A2951C7C6EA600ECDA20 /* MMVMPackageListingViewModel.h */,
+				ACB8A2961C7C6EA600ECDA20 /* MMVMPackageListingViewModel.m */,
+			);
+			path = PackageListing;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -686,6 +753,7 @@
 			files = (
 				ACB3E4141C7AE2D00070B6A5 /* HelveticaNeueLTStd-Lt.otf in Resources */,
 				ACB3E3C61C7AE1900070B6A5 /* GKBNavigationBar.xib in Resources */,
+				ACB8A2911C7C6E0600ECDA20 /* MMVMGameStoryboard.storyboard in Resources */,
 				ACB3E41A1C7AE2D00070B6A5 /* MtechProject.csv in Resources */,
 				ACB3E40C1C7AE27D0070B6A5 /* MVCGameStoryboard.storyboard in Resources */,
 				ACB3E34A1C7AE1530070B6A5 /* LaunchScreen.storyboard in Resources */,
@@ -701,6 +769,7 @@
 			files = (
 				ACB3E4151C7AE2D00070B6A5 /* HelveticaNeueLTStd-Lt.otf in Resources */,
 				ACB3E41B1C7AE2D00070B6A5 /* MtechProject.csv in Resources */,
+				ACB8A2921C7C6E0600ECDA20 /* MMVMGameStoryboard.storyboard in Resources */,
 				ACB3E3C71C7AE1900070B6A5 /* GKBNavigationBar.xib in Resources */,
 				ACB3E4181C7AE2D00070B6A5 /* HelveticaNeueLTStd-Roman.otf in Resources */,
 				ACB3E40D1C7AE27D0070B6A5 /* MVCGameStoryboard.storyboard in Resources */,
@@ -713,6 +782,7 @@
 			files = (
 				ACB3E4161C7AE2D00070B6A5 /* HelveticaNeueLTStd-Lt.otf in Resources */,
 				ACB3E41C1C7AE2D00070B6A5 /* MtechProject.csv in Resources */,
+				ACB8A2931C7C6E0600ECDA20 /* MMVMGameStoryboard.storyboard in Resources */,
 				ACB3E3C81C7AE1900070B6A5 /* GKBNavigationBar.xib in Resources */,
 				ACB3E4191C7AE2D00070B6A5 /* HelveticaNeueLTStd-Roman.otf in Resources */,
 				ACB3E40E1C7AE27D0070B6A5 /* MVCGameStoryboard.storyboard in Resources */,
@@ -741,9 +811,11 @@
 				ACB3E3C91C7AE1900070B6A5 /* CDSettingsModel.m in Sources */,
 				ACB3E4201C7B16760070B6A5 /* NSString+DesignPatterns.m in Sources */,
 				ACB3E3D41C7AE1B40070B6A5 /* designpatterns.xcdatamodeld in Sources */,
+				ACB8A2971C7C6EA600ECDA20 /* MMVMPackageListingViewModel.m in Sources */,
 				ACB3E3BD1C7AE1900070B6A5 /* GKBTest+CoreDataProperties.m in Sources */,
 				ACB3E3FD1C7AE27D0070B6A5 /* MVCResultChartViewController.m in Sources */,
 				ACB3E3B11C7AE1900070B6A5 /* GKBDataConverter.m in Sources */,
+				ACB8A28D1C7C6DF300ECDA20 /* MMVMPackageListingViewController.m in Sources */,
 				ACB3E4091C7AE27D0070B6A5 /* MVCListingTableViewCell.m in Sources */,
 				ACB3E3CF1C7AE1900070B6A5 /* GKBSuperViewController.m in Sources */,
 				ACB3E3B71C7AE1900070B6A5 /* GKBQuestion+CoreDataProperties.m in Sources */,
@@ -765,8 +837,10 @@
 				ACB3E4041C7AE27D0070B6A5 /* MVCOptionsTableViewCell.m in Sources */,
 				ACB3E3D01C7AE1900070B6A5 /* GKBSuperViewController.m in Sources */,
 				ACB3E3CD1C7AE1900070B6A5 /* GKBPaddedTextField.m in Sources */,
+				ACB8A28E1C7C6DF300ECDA20 /* MMVMPackageListingViewController.m in Sources */,
 				ACB3E3FB1C7AE27D0070B6A5 /* MVCPackageListingViewController.m in Sources */,
 				ACB3E4011C7AE27D0070B6A5 /* MVCAllAnswersTableViewCell.m in Sources */,
+				ACB8A2981C7C6EA600ECDA20 /* MMVMPackageListingViewModel.m in Sources */,
 				ACB3E3F81C7AE27D0070B6A5 /* MVCGamePlayViewController.m in Sources */,
 				ACB3E3B81C7AE1900070B6A5 /* GKBQuestion+CoreDataProperties.m in Sources */,
 				ACB3E3AC1C7AE1900070B6A5 /* CDConstants.m in Sources */,
@@ -798,8 +872,10 @@
 				ACB3E4051C7AE27D0070B6A5 /* MVCOptionsTableViewCell.m in Sources */,
 				ACB3E3D11C7AE1900070B6A5 /* GKBSuperViewController.m in Sources */,
 				ACB3E3CE1C7AE1900070B6A5 /* GKBPaddedTextField.m in Sources */,
+				ACB8A28F1C7C6DF300ECDA20 /* MMVMPackageListingViewController.m in Sources */,
 				ACB3E3FC1C7AE27D0070B6A5 /* MVCPackageListingViewController.m in Sources */,
 				ACB3E4021C7AE27D0070B6A5 /* MVCAllAnswersTableViewCell.m in Sources */,
+				ACB8A2991C7C6EA600ECDA20 /* MMVMPackageListingViewModel.m in Sources */,
 				ACB3E3F91C7AE27D0070B6A5 /* MVCGamePlayViewController.m in Sources */,
 				ACB3E3B91C7AE1900070B6A5 /* GKBQuestion+CoreDataProperties.m in Sources */,
 				ACB3E3AD1C7AE1900070B6A5 /* CDConstants.m in Sources */,
@@ -1033,6 +1109,7 @@
 				ACB3E3661C7AE1530070B6A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ACB3E3671C7AE1530070B6A5 /* Build configuration list for PBXNativeTarget "DesignPatternsTests" */ = {
 			isa = XCConfigurationList;
@@ -1041,6 +1118,7 @@
 				ACB3E3691C7AE1530070B6A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ACB3E36A1C7AE1530070B6A5 /* Build configuration list for PBXNativeTarget "DesignPatternsUITests" */ = {
 			isa = XCConfigurationList;
@@ -1049,6 +1127,7 @@
 				ACB3E36C1C7AE1530070B6A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
