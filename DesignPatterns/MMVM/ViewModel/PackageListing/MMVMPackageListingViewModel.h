@@ -8,9 +8,8 @@
 
 #import <Foundation/Foundation.h>
 #import "MMVMPackageListingViewController.h"
+#import "MMVMPackageListingInterface.h"
 
-
-@interface MMVMPackageListingViewModel : NSObject <MMVMPackageListingProtocol>
-
+@interface MMVMPackageListingViewModel : NSObject <MMVMPackageListingInterface>
 
 @end

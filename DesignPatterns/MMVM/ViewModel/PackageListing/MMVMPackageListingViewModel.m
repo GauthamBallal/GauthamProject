@@ -8,12 +8,15 @@
 
 #import "MMVMPackageListingViewModel.h"
 #import "GKBTest.h"
-#import "MVCListingTableViewCell.h"
 #import "MVCGamePlayViewController.h"
 #import "GKBDataSourceManager.h"
 
+@interface MMVMPackageListingViewModel ()
+@property (strong, nonatomic) NSArray *testsArray;
+
+@end
+
 @implementation MMVMPackageListingViewModel
-@synthesize testsArray;
 
 - (instancetype)init
 {
@@ -25,24 +28,29 @@
 }
 
 
-#pragma mark - UITableViewDataSource -
-
-- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
+-(NSInteger)numberOfRows
 {
-    return self.testsArray.count;
+    return _testsArray.count;
 }
 
-- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+-(NSString*)titleForRow:(NSInteger)row
 {
-    GKBTest *test = self.testsArray[indexPath.row];
-    MVCListingTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"ListingCell" forIndexPath:indexPath];
-    cell.imageTitleLabel.text = test.testName;
-    cell.packageTitleLabel.text = [NSString stringWithFormat:@"Test %@",test.testID];
-    cell.packageDescriptionLabel.text = test.testDescription;
-    return cell;
+    GKBTest *test = self.testsArray[row];
+    return test.testName;
+}
+-(NSString*)descriptionForRow:(NSInteger)row
+{
+    GKBTest *test = self.testsArray[row];
+    return test.testDescription;
 }
 
-- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+-(NSString*)imageTitleForRow:(NSInteger)row
+{
+    GKBTest *test = self.testsArray[row];
+    return [NSString stringWithFormat:@"Test %@",test.testID];
+}
+
+-(void)tableCellTapped:(NSIndexPath*)indexPath
 {
     MVCGamePlayViewController *gameViewController = [[UIStoryboard gameMVCStoryBoard] instantiateViewControllerWithIdentifier:@"CDGamePlayVC"];
     gameViewController.test = self.testsArray[indexPath.row];

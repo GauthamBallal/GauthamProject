@@ -114,6 +114,15 @@
 		ACB8A2971C7C6EA600ECDA20 /* MMVMPackageListingViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB8A2961C7C6EA600ECDA20 /* MMVMPackageListingViewModel.m */; };
 		ACB8A2981C7C6EA600ECDA20 /* MMVMPackageListingViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB8A2961C7C6EA600ECDA20 /* MMVMPackageListingViewModel.m */; };
 		ACB8A2991C7C6EA600ECDA20 /* MMVMPackageListingViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB8A2961C7C6EA600ECDA20 /* MMVMPackageListingViewModel.m */; };
+		ACB8A29C1C7C799D00ECDA20 /* MMVMGamePlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB8A29B1C7C799D00ECDA20 /* MMVMGamePlayViewController.m */; };
+		ACB8A29D1C7C799D00ECDA20 /* MMVMGamePlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB8A29B1C7C799D00ECDA20 /* MMVMGamePlayViewController.m */; };
+		ACB8A29E1C7C799D00ECDA20 /* MMVMGamePlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB8A29B1C7C799D00ECDA20 /* MMVMGamePlayViewController.m */; };
+		ACB8A2A21C7C79C000ECDA20 /* MMVMGamePlayViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB8A2A11C7C79C000ECDA20 /* MMVMGamePlayViewModel.m */; };
+		ACB8A2A31C7C79C000ECDA20 /* MMVMGamePlayViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB8A2A11C7C79C000ECDA20 /* MMVMGamePlayViewModel.m */; };
+		ACB8A2A41C7C79C000ECDA20 /* MMVMGamePlayViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB8A2A11C7C79C000ECDA20 /* MMVMGamePlayViewModel.m */; };
+		ACB8A2A81C7C825C00ECDA20 /* MMVMProductListingTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB8A2A71C7C825C00ECDA20 /* MMVMProductListingTableCell.m */; };
+		ACB8A2A91C7C825C00ECDA20 /* MMVMProductListingTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB8A2A71C7C825C00ECDA20 /* MMVMProductListingTableCell.m */; };
+		ACB8A2AA1C7C825C00ECDA20 /* MMVMProductListingTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB8A2A71C7C825C00ECDA20 /* MMVMProductListingTableCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -210,6 +219,13 @@
 		ACB8A2901C7C6E0600ECDA20 /* MMVMGameStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MMVMGameStoryboard.storyboard; sourceTree = "<group>"; };
 		ACB8A2951C7C6EA600ECDA20 /* MMVMPackageListingViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMVMPackageListingViewModel.h; sourceTree = "<group>"; };
 		ACB8A2961C7C6EA600ECDA20 /* MMVMPackageListingViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMVMPackageListingViewModel.m; sourceTree = "<group>"; };
+		ACB8A29A1C7C799D00ECDA20 /* MMVMGamePlayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMVMGamePlayViewController.h; sourceTree = "<group>"; };
+		ACB8A29B1C7C799D00ECDA20 /* MMVMGamePlayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMVMGamePlayViewController.m; sourceTree = "<group>"; };
+		ACB8A2A01C7C79C000ECDA20 /* MMVMGamePlayViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMVMGamePlayViewModel.h; sourceTree = "<group>"; };
+		ACB8A2A11C7C79C000ECDA20 /* MMVMGamePlayViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMVMGamePlayViewModel.m; sourceTree = "<group>"; };
+		ACB8A2A51C7C806700ECDA20 /* MMVMPackageListingInterface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMVMPackageListingInterface.h; sourceTree = "<group>"; };
+		ACB8A2A61C7C825C00ECDA20 /* MMVMProductListingTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMVMProductListingTableCell.h; sourceTree = "<group>"; };
+		ACB8A2A71C7C825C00ECDA20 /* MMVMProductListingTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMVMProductListingTableCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -617,6 +633,8 @@
 		ACB8A2871C7C6D9300ECDA20 /* GamePlay */ = {
 			isa = PBXGroup;
 			children = (
+				ACB8A29A1C7C799D00ECDA20 /* MMVMGamePlayViewController.h */,
+				ACB8A29B1C7C799D00ECDA20 /* MMVMGamePlayViewController.m */,
 			);
 			path = GamePlay;
 			sourceTree = "<group>";
@@ -624,8 +642,11 @@
 		ACB8A2881C7C6D9300ECDA20 /* PackageListing */ = {
 			isa = PBXGroup;
 			children = (
+				ACB8A2A51C7C806700ECDA20 /* MMVMPackageListingInterface.h */,
 				ACB8A28B1C7C6DF300ECDA20 /* MMVMPackageListingViewController.h */,
 				ACB8A28C1C7C6DF300ECDA20 /* MMVMPackageListingViewController.m */,
+				ACB8A2A61C7C825C00ECDA20 /* MMVMProductListingTableCell.h */,
+				ACB8A2A71C7C825C00ECDA20 /* MMVMProductListingTableCell.m */,
 			);
 			path = PackageListing;
 			sourceTree = "<group>";
@@ -633,6 +654,7 @@
 		ACB8A28A1C7C6DC400ECDA20 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				ACB8A29F1C7C79AA00ECDA20 /* GamePlay */,
 				ACB8A2941C7C6E8D00ECDA20 /* PackageListing */,
 			);
 			path = ViewModel;
@@ -645,6 +667,15 @@
 				ACB8A2961C7C6EA600ECDA20 /* MMVMPackageListingViewModel.m */,
 			);
 			path = PackageListing;
+			sourceTree = "<group>";
+		};
+		ACB8A29F1C7C79AA00ECDA20 /* GamePlay */ = {
+			isa = PBXGroup;
+			children = (
+				ACB8A2A01C7C79C000ECDA20 /* MMVMGamePlayViewModel.h */,
+				ACB8A2A11C7C79C000ECDA20 /* MMVMGamePlayViewModel.m */,
+			);
+			path = GamePlay;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -807,6 +838,7 @@
 				ACB3E3AB1C7AE1900070B6A5 /* CDConstants.m in Sources */,
 				ACB3E3BA1C7AE1900070B6A5 /* GKBQuestion.m in Sources */,
 				ACB3E3C31C7AE1900070B6A5 /* GKBNavigationBar.m in Sources */,
+				ACB8A2A21C7C79C000ECDA20 /* MMVMGamePlayViewModel.m in Sources */,
 				ACB3E4031C7AE27D0070B6A5 /* MVCOptionsTableViewCell.m in Sources */,
 				ACB3E3C91C7AE1900070B6A5 /* CDSettingsModel.m in Sources */,
 				ACB3E4201C7B16760070B6A5 /* NSString+DesignPatterns.m in Sources */,
@@ -823,7 +855,9 @@
 				ACB3E3C01C7AE1900070B6A5 /* GKBTest.m in Sources */,
 				ACB3E33C1C7AE1530070B6A5 /* main.m in Sources */,
 				ACB3E4061C7AE27D0070B6A5 /* MVCChartCollectionViewCell.m in Sources */,
+				ACB8A2A81C7C825C00ECDA20 /* MMVMProductListingTableCell.m in Sources */,
 				ACB3E3CC1C7AE1900070B6A5 /* GKBPaddedTextField.m in Sources */,
+				ACB8A29C1C7C799D00ECDA20 /* MMVMGamePlayViewController.m in Sources */,
 				ACB3E3B41C7AE1900070B6A5 /* GKBDataSourceManager.m in Sources */,
 				ACB3E42A1C7B16E30070B6A5 /* UIStoryboard+DesignPatterns.m in Sources */,
 			);
@@ -833,8 +867,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACB8A29D1C7C799D00ECDA20 /* MMVMGamePlayViewController.m in Sources */,
 				ACB3E3D51C7AE1B40070B6A5 /* designpatterns.xcdatamodeld in Sources */,
 				ACB3E4041C7AE27D0070B6A5 /* MVCOptionsTableViewCell.m in Sources */,
+				ACB8A2A91C7C825C00ECDA20 /* MMVMProductListingTableCell.m in Sources */,
 				ACB3E3D01C7AE1900070B6A5 /* GKBSuperViewController.m in Sources */,
 				ACB3E3CD1C7AE1900070B6A5 /* GKBPaddedTextField.m in Sources */,
 				ACB8A28E1C7C6DF300ECDA20 /* MMVMPackageListingViewController.m in Sources */,
@@ -859,6 +895,7 @@
 				ACB3E3AF1C7AE1900070B6A5 /* GKBCoreData.m in Sources */,
 				ACB3E3551C7AE1530070B6A5 /* DesignPatternsTests.m in Sources */,
 				ACB3E42B1C7B16E30070B6A5 /* UIStoryboard+DesignPatterns.m in Sources */,
+				ACB8A2A31C7C79C000ECDA20 /* MMVMGamePlayViewModel.m in Sources */,
 				ACB3E3B51C7AE1900070B6A5 /* GKBDataSourceManager.m in Sources */,
 				ACB3E3F51C7AE27D0070B6A5 /* MVCAllAnswersViewController.m in Sources */,
 			);
@@ -868,8 +905,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACB8A29E1C7C799D00ECDA20 /* MMVMGamePlayViewController.m in Sources */,
 				ACB3E3D61C7AE1B40070B6A5 /* designpatterns.xcdatamodeld in Sources */,
 				ACB3E4051C7AE27D0070B6A5 /* MVCOptionsTableViewCell.m in Sources */,
+				ACB8A2AA1C7C825C00ECDA20 /* MMVMProductListingTableCell.m in Sources */,
 				ACB3E3D11C7AE1900070B6A5 /* GKBSuperViewController.m in Sources */,
 				ACB3E3CE1C7AE1900070B6A5 /* GKBPaddedTextField.m in Sources */,
 				ACB8A28F1C7C6DF300ECDA20 /* MMVMPackageListingViewController.m in Sources */,
@@ -894,6 +933,7 @@
 				ACB3E3B01C7AE1900070B6A5 /* GKBCoreData.m in Sources */,
 				ACB3E3601C7AE1530070B6A5 /* DesignPatternsUITests.m in Sources */,
 				ACB3E42C1C7B16E30070B6A5 /* UIStoryboard+DesignPatterns.m in Sources */,
+				ACB8A2A41C7C79C000ECDA20 /* MMVMGamePlayViewModel.m in Sources */,
 				ACB3E3B61C7AE1900070B6A5 /* GKBDataSourceManager.m in Sources */,
 				ACB3E3F61C7AE27D0070B6A5 /* MVCAllAnswersViewController.m in Sources */,
 			);

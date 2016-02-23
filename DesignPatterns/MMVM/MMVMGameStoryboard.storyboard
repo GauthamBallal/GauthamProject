@@ -43,7 +43,7 @@
                                         <rect key="frame" x="0.0" y="41" width="320" height="460"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <prototypes>
-                                            <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="ListingCell" rowHeight="157" id="koz-ti-AIX" customClass="MVCListingTableViewCell">
+                                            <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="ListingCell" rowHeight="157" id="koz-ti-AIX" customClass="MMVMProductListingTableCell">
                                                 <rect key="frame" x="0.0" y="22" width="320" height="157"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="koz-ti-AIX" id="keX-hU-r10">
@@ -80,11 +80,9 @@
                                                     </subviews>
                                                 </tableViewCellContentView>
                                                 <connections>
-                                                    <outlet property="freeOrPaiedImageView" destination="VCu-yy-tQq" id="B5y-M8-aIE"/>
-                                                    <outlet property="imageTitleLabel" destination="jyl-Of-Gib" id="N7W-jn-gyD"/>
-                                                    <outlet property="packageDescriptionLabel" destination="bAK-e4-DGE" id="6cf-7o-OG7"/>
-                                                    <outlet property="packageImageView" destination="QKU-fO-RDZ" id="vM3-Um-8n6"/>
-                                                    <outlet property="packageTitleLabel" destination="Rmq-YQ-Er1" id="HSJ-KZ-iTb"/>
+                                                    <outlet property="imageTitleLabel" destination="jyl-Of-Gib" id="E5a-sI-NIt"/>
+                                                    <outlet property="packageDescriptionLabel" destination="bAK-e4-DGE" id="7Dv-Ni-lWl"/>
+                                                    <outlet property="packageTitleLabel" destination="Rmq-YQ-Er1" id="6pO-dV-Cfx"/>
                                                 </connections>
                                             </tableViewCell>
                                         </prototypes>

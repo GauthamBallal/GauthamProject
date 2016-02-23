@@ -22,22 +22,20 @@
 @interface MVCGamePlayViewController ()
 @property (weak, nonatomic) IBOutlet UIButton *timerButton;
 @property (weak, nonatomic) IBOutlet UIButton *packageNameButton;
-@property (assign,nonatomic) int currentTime;
-@property (nonatomic,strong) NSString *userSelectedAnswer;
-@property (nonatomic,strong) NSTimer *timer;
 @property (weak, nonatomic) IBOutlet UIView *questionView;
 @property (weak, nonatomic) IBOutlet UILabel *questionLabel;
 @property (weak, nonatomic) IBOutlet UITextView *testTextView;
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
-@property (strong,nonatomic) NSArray *questionsArray;
-
-@property (assign,nonatomic) int currentQuestion;
-
 @property (weak, nonatomic) IBOutlet UIView *hintHolderView;
 @property (weak, nonatomic) IBOutlet UIView *hintView;
 @property (weak, nonatomic) IBOutlet UIImageView *hintPopUpImageView;
 @property (weak, nonatomic) IBOutlet UILabel *hintLabel;
 
+@property (assign,nonatomic) int currentTime;
+@property (nonatomic,strong) NSString *userSelectedAnswer;
+@property (nonatomic,strong) NSTimer *timer;
+@property (strong,nonatomic) NSArray *questionsArray;
+@property (assign,nonatomic) int currentQuestion;
 
 - (IBAction)submitButtonPressed:(UIButton *)sender;
 - (IBAction)nextButtonPressed:(UIButton *)sender;

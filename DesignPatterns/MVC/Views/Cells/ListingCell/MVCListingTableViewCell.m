@@ -13,7 +13,9 @@
 
 @property (weak, nonatomic) IBOutlet UIImageView *freeOrPaiedImageView;
 @property (weak, nonatomic) IBOutlet UIImageView *packageImageView;
-
+@property (weak, nonatomic) IBOutlet UILabel *imageTitleLabel;
+@property (weak, nonatomic) IBOutlet UILabel *packageTitleLabel;
+@property (weak, nonatomic) IBOutlet UILabel *packageDescriptionLabel;
 
 @end
 

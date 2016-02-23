@@ -1,13 +1,13 @@
 //
-//  MMVMPackageListingViewController.h
+//  MMVMProductListingTableCell.m
 //  DesignPatterns
 //
 //  Created by Gautham Krishna Ballal on 23/02/16.
 //  Copyright © 2016 Gautham Krishna Ballal. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "MMVMProductListingTableCell.h"
 
-@interface MMVMPackageListingViewController : UIViewController
+@implementation MMVMProductListingTableCell
 
 @end

@@ -8,6 +8,7 @@
 
 #import "MMVMPackageListingViewController.h"
 #import "MMVMPackageListingViewModel.h"
+#import "MMVMProductListingTableCell.h"
 
 @interface MMVMPackageListingViewController ()
 @property (weak, nonatomic) IBOutlet UITableView *packageListingTableView;
@@ -20,8 +21,6 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     self.viewModel = [[MMVMPackageListingViewModel alloc]init];
-    self.packageListingTableView.delegate = _viewModel;
-    self.packageListingTableView.dataSource = _viewModel;
 }
 
 - (void)didReceiveMemoryWarning {
@@ -29,14 +28,23 @@
     // Dispose of any resources that can be recreated.
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
+{
+    return [_viewModel numberOfRows];
 }
-*/
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    MMVMProductListingTableCell *cell = [tableView dequeueReusableCellWithIdentifier:@"ListingCell" forIndexPath:indexPath];
+    cell.imageTitleLabel.text = [_viewModel imageTitleForRow:indexPath.row];
+    cell.packageTitleLabel.text = [_viewModel titleForRow:indexPath.row];
+    cell.packageDescriptionLabel.text = [_viewModel descriptionForRow:indexPath.row];
+    return cell;
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    [_viewModel tableCellTapped:indexPath];
+}
 
 @end
