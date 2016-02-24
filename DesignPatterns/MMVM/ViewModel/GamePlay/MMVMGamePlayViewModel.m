@@ -7,7 +7,7 @@
 //
 
 #import "MMVMGamePlayViewModel.h"
-#import "MVCResultChartViewController.h"
+#import "MMVMResultViewController.h"
 #import "GKBQuestion.h"
 
 
@@ -157,8 +157,14 @@
 
 -(void)submitButtonTapped
 {
-    MVCResultChartViewController *allAnswers = [[UIStoryboard gameMVCStoryBoard] instantiateViewControllerWithIdentifier:@"CDResultChartVC"];
-    allAnswers.questionsArray = self.questionsArray;
+    if(self.timer)
+    {
+        [self.timer invalidate];
+        self.timer = nil;
+    }
+    
+    MMVMResultViewController *allAnswers = [[UIStoryboard gameMMVMStoryBoard] instantiateViewControllerWithIdentifier:@"CDResultChartVC"];
+    allAnswers.viewModel.answers = self.questionsArray;
     [BASE_VIEWCONTROLLER pushViewController:allAnswers withAnimation:YES];
 }
 

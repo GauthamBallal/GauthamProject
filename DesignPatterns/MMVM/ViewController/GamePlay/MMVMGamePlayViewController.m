@@ -10,7 +10,7 @@
 #import "GKBNavigationBar.h"
 #import "MVCOptionsTableViewCell.h"
 #import "GKBQuestion.h"
-#import "MVCResultChartViewController.h"
+#import "MVCResultViewController.h"
 #import "GKBDataSourceManager.h"
 
 #define kMinimumHintHeight 128
@@ -96,7 +96,7 @@
  }
  */
 
-#pragma mark - Pivate Methods -
+#pragma mark - Private Methods -
 
 -(void)setTimerText:(NSString*)timetoSet
 {

@@ -10,7 +10,7 @@
 #import "GKBNavigationBar.h"
 #import "MVCOptionsTableViewCell.h"
 #import "GKBQuestion.h"
-#import "MVCResultChartViewController.h"
+#import "MVCResultViewController.h"
 #import "GKBDataSourceManager.h"
 #import "GKBTest.h"
 
@@ -218,7 +218,7 @@
 #pragma mark - Action Methods -
 
 - (IBAction)submitButtonPressed:(UIButton *)sender {
-    MVCResultChartViewController *allAnswers = [[UIStoryboard gameMVCStoryBoard] instantiateViewControllerWithIdentifier:@"CDResultChartVC"];
+    MVCResultViewController *allAnswers = [[UIStoryboard gameMVCStoryBoard] instantiateViewControllerWithIdentifier:@"CDResultChartVC"];
     allAnswers.questionsArray = self.questionsArray;
     [BASE_VIEWCONTROLLER pushViewController:allAnswers withAnimation:YES];
 }
