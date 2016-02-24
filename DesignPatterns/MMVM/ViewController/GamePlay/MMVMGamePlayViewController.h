@@ -7,17 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@protocol MMVMGamePlayInterface <NSObject>
-
-@property (assign,nonatomic) int currentTime;
-@property (nonatomic,strong) NSString *userSelectedAnswer;
-@property (nonatomic,strong) NSTimer *timer;
-@property (strong,nonatomic) NSArray *questionsArray;
-@property (assign,nonatomic) int currentQuestion;
-
-@end
+#import "MMVMGamePlayViewModel.h"
 
 @interface MMVMGamePlayViewController : UIViewController
+
+@property (strong,nonatomic) MMVMGamePlayViewModel *viewModel;
 
 @end

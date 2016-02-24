@@ -8,7 +8,6 @@
 
 #import "MMVMPackageListingViewController.h"
 #import "MMVMPackageListingViewModel.h"
-#import "MMVMProductListingTableCell.h"
 
 @interface MMVMPackageListingViewController ()
 @property (weak, nonatomic) IBOutlet UITableView *packageListingTableView;
@@ -17,10 +16,18 @@
 
 @implementation MMVMPackageListingViewController
 
+- (instancetype)initWithCoder:(NSCoder *)coder
+{
+    self = [super initWithCoder:coder];
+    if (self) {
+        self.viewModel = [[MMVMPackageListingViewModel alloc]init];
+    }
+    return self;
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    self.viewModel = [[MMVMPackageListingViewModel alloc]init];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -35,10 +42,11 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    MMVMProductListingTableCell *cell = [tableView dequeueReusableCellWithIdentifier:@"ListingCell" forIndexPath:indexPath];
-    cell.imageTitleLabel.text = [_viewModel imageTitleForRow:indexPath.row];
-    cell.packageTitleLabel.text = [_viewModel titleForRow:indexPath.row];
-    cell.packageDescriptionLabel.text = [_viewModel descriptionForRow:indexPath.row];
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"ListingCell" forIndexPath:indexPath];
+    ((UILabel*)[cell viewWithTag:121]).text = [_viewModel titleForRow:indexPath.row];
+    ((UILabel*)[cell viewWithTag:122]).text = [_viewModel imageTitleForRow:indexPath.row];
+    ((UILabel*)[cell viewWithTag:123]).text = [_viewModel descriptionForRow:indexPath.row];
+
     return cell;
 }
 

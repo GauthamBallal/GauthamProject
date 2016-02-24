@@ -7,8 +7,10 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "MMVMGamePlayViewController.h"
+#import "MMVMGamePlayInterface.h"
+#import "GKBTest.h"
 
 @interface MMVMGamePlayViewModel : NSObject <MMVMGamePlayInterface>
 
+@property (nonatomic,strong) GKBTest *test;
 @end

@@ -78,9 +78,6 @@
 		ACB3E4031C7AE27D0070B6A5 /* MVCOptionsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB3E3EC1C7AE27D0070B6A5 /* MVCOptionsTableViewCell.m */; };
 		ACB3E4041C7AE27D0070B6A5 /* MVCOptionsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB3E3EC1C7AE27D0070B6A5 /* MVCOptionsTableViewCell.m */; };
 		ACB3E4051C7AE27D0070B6A5 /* MVCOptionsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB3E3EC1C7AE27D0070B6A5 /* MVCOptionsTableViewCell.m */; };
-		ACB3E4061C7AE27D0070B6A5 /* MVCChartCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB3E3EF1C7AE27D0070B6A5 /* MVCChartCollectionViewCell.m */; };
-		ACB3E4071C7AE27D0070B6A5 /* MVCChartCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB3E3EF1C7AE27D0070B6A5 /* MVCChartCollectionViewCell.m */; };
-		ACB3E4081C7AE27D0070B6A5 /* MVCChartCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB3E3EF1C7AE27D0070B6A5 /* MVCChartCollectionViewCell.m */; };
 		ACB3E4091C7AE27D0070B6A5 /* MVCListingTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB3E3F21C7AE27D0070B6A5 /* MVCListingTableViewCell.m */; };
 		ACB3E40A1C7AE27D0070B6A5 /* MVCListingTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB3E3F21C7AE27D0070B6A5 /* MVCListingTableViewCell.m */; };
 		ACB3E40B1C7AE27D0070B6A5 /* MVCListingTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB3E3F21C7AE27D0070B6A5 /* MVCListingTableViewCell.m */; };
@@ -120,9 +117,6 @@
 		ACB8A2A21C7C79C000ECDA20 /* MMVMGamePlayViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB8A2A11C7C79C000ECDA20 /* MMVMGamePlayViewModel.m */; };
 		ACB8A2A31C7C79C000ECDA20 /* MMVMGamePlayViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB8A2A11C7C79C000ECDA20 /* MMVMGamePlayViewModel.m */; };
 		ACB8A2A41C7C79C000ECDA20 /* MMVMGamePlayViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB8A2A11C7C79C000ECDA20 /* MMVMGamePlayViewModel.m */; };
-		ACB8A2A81C7C825C00ECDA20 /* MMVMProductListingTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB8A2A71C7C825C00ECDA20 /* MMVMProductListingTableCell.m */; };
-		ACB8A2A91C7C825C00ECDA20 /* MMVMProductListingTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB8A2A71C7C825C00ECDA20 /* MMVMProductListingTableCell.m */; };
-		ACB8A2AA1C7C825C00ECDA20 /* MMVMProductListingTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB8A2A71C7C825C00ECDA20 /* MMVMProductListingTableCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -143,6 +137,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AC9F4C571C7D96350081A7A9 /* MMVMGamePlayInterface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMVMGamePlayInterface.h; sourceTree = "<group>"; };
 		ACB3E3371C7AE1530070B6A5 /* DesignPatterns.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignPatterns.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACB3E33B1C7AE1530070B6A5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		ACB3E33D1C7AE1530070B6A5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -199,8 +194,6 @@
 		ACB3E3E91C7AE27D0070B6A5 /* MVCAllAnswersTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVCAllAnswersTableViewCell.m; sourceTree = "<group>"; };
 		ACB3E3EB1C7AE27D0070B6A5 /* MVCOptionsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVCOptionsTableViewCell.h; sourceTree = "<group>"; };
 		ACB3E3EC1C7AE27D0070B6A5 /* MVCOptionsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVCOptionsTableViewCell.m; sourceTree = "<group>"; };
-		ACB3E3EE1C7AE27D0070B6A5 /* MVCChartCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVCChartCollectionViewCell.h; sourceTree = "<group>"; };
-		ACB3E3EF1C7AE27D0070B6A5 /* MVCChartCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVCChartCollectionViewCell.m; sourceTree = "<group>"; };
 		ACB3E3F11C7AE27D0070B6A5 /* MVCListingTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVCListingTableViewCell.h; sourceTree = "<group>"; };
 		ACB3E3F21C7AE27D0070B6A5 /* MVCListingTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVCListingTableViewCell.m; sourceTree = "<group>"; };
 		ACB3E3F31C7AE27D0070B6A5 /* MVCGameStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MVCGameStoryboard.storyboard; sourceTree = "<group>"; };
@@ -224,8 +217,6 @@
 		ACB8A2A01C7C79C000ECDA20 /* MMVMGamePlayViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMVMGamePlayViewModel.h; sourceTree = "<group>"; };
 		ACB8A2A11C7C79C000ECDA20 /* MMVMGamePlayViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMVMGamePlayViewModel.m; sourceTree = "<group>"; };
 		ACB8A2A51C7C806700ECDA20 /* MMVMPackageListingInterface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMVMPackageListingInterface.h; sourceTree = "<group>"; };
-		ACB8A2A61C7C825C00ECDA20 /* MMVMProductListingTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMVMProductListingTableCell.h; sourceTree = "<group>"; };
-		ACB8A2A71C7C825C00ECDA20 /* MMVMProductListingTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMVMProductListingTableCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -551,7 +542,6 @@
 			children = (
 				ACB3E3E71C7AE27D0070B6A5 /* AllAnswerCell */,
 				ACB3E3EA1C7AE27D0070B6A5 /* AnswerCell */,
-				ACB3E3ED1C7AE27D0070B6A5 /* ChartCell */,
 				ACB3E3F01C7AE27D0070B6A5 /* ListingCell */,
 			);
 			path = Cells;
@@ -573,15 +563,6 @@
 				ACB3E3EC1C7AE27D0070B6A5 /* MVCOptionsTableViewCell.m */,
 			);
 			path = AnswerCell;
-			sourceTree = "<group>";
-		};
-		ACB3E3ED1C7AE27D0070B6A5 /* ChartCell */ = {
-			isa = PBXGroup;
-			children = (
-				ACB3E3EE1C7AE27D0070B6A5 /* MVCChartCollectionViewCell.h */,
-				ACB3E3EF1C7AE27D0070B6A5 /* MVCChartCollectionViewCell.m */,
-			);
-			path = ChartCell;
 			sourceTree = "<group>";
 		};
 		ACB3E3F01C7AE27D0070B6A5 /* ListingCell */ = {
@@ -633,6 +614,7 @@
 		ACB8A2871C7C6D9300ECDA20 /* GamePlay */ = {
 			isa = PBXGroup;
 			children = (
+				AC9F4C571C7D96350081A7A9 /* MMVMGamePlayInterface.h */,
 				ACB8A29A1C7C799D00ECDA20 /* MMVMGamePlayViewController.h */,
 				ACB8A29B1C7C799D00ECDA20 /* MMVMGamePlayViewController.m */,
 			);
@@ -645,8 +627,6 @@
 				ACB8A2A51C7C806700ECDA20 /* MMVMPackageListingInterface.h */,
 				ACB8A28B1C7C6DF300ECDA20 /* MMVMPackageListingViewController.h */,
 				ACB8A28C1C7C6DF300ECDA20 /* MMVMPackageListingViewController.m */,
-				ACB8A2A61C7C825C00ECDA20 /* MMVMProductListingTableCell.h */,
-				ACB8A2A71C7C825C00ECDA20 /* MMVMProductListingTableCell.m */,
 			);
 			path = PackageListing;
 			sourceTree = "<group>";
@@ -854,8 +834,6 @@
 				ACB3E3A21C7AE1900070B6A5 /* UIView+FrameSetter.m in Sources */,
 				ACB3E3C01C7AE1900070B6A5 /* GKBTest.m in Sources */,
 				ACB3E33C1C7AE1530070B6A5 /* main.m in Sources */,
-				ACB3E4061C7AE27D0070B6A5 /* MVCChartCollectionViewCell.m in Sources */,
-				ACB8A2A81C7C825C00ECDA20 /* MMVMProductListingTableCell.m in Sources */,
 				ACB3E3CC1C7AE1900070B6A5 /* GKBPaddedTextField.m in Sources */,
 				ACB8A29C1C7C799D00ECDA20 /* MMVMGamePlayViewController.m in Sources */,
 				ACB3E3B41C7AE1900070B6A5 /* GKBDataSourceManager.m in Sources */,
@@ -870,7 +848,6 @@
 				ACB8A29D1C7C799D00ECDA20 /* MMVMGamePlayViewController.m in Sources */,
 				ACB3E3D51C7AE1B40070B6A5 /* designpatterns.xcdatamodeld in Sources */,
 				ACB3E4041C7AE27D0070B6A5 /* MVCOptionsTableViewCell.m in Sources */,
-				ACB8A2A91C7C825C00ECDA20 /* MMVMProductListingTableCell.m in Sources */,
 				ACB3E3D01C7AE1900070B6A5 /* GKBSuperViewController.m in Sources */,
 				ACB3E3CD1C7AE1900070B6A5 /* GKBPaddedTextField.m in Sources */,
 				ACB8A28E1C7C6DF300ECDA20 /* MMVMPackageListingViewController.m in Sources */,
@@ -886,7 +863,6 @@
 				ACB3E3B21C7AE1900070B6A5 /* GKBDataConverter.m in Sources */,
 				ACB3E3BB1C7AE1900070B6A5 /* GKBQuestion.m in Sources */,
 				ACB3E3BE1C7AE1900070B6A5 /* GKBTest+CoreDataProperties.m in Sources */,
-				ACB3E4071C7AE27D0070B6A5 /* MVCChartCollectionViewCell.m in Sources */,
 				ACB3E40A1C7AE27D0070B6A5 /* MVCListingTableViewCell.m in Sources */,
 				ACB3E3C41C7AE1900070B6A5 /* GKBNavigationBar.m in Sources */,
 				ACB3E4211C7B16760070B6A5 /* NSString+DesignPatterns.m in Sources */,
@@ -908,7 +884,6 @@
 				ACB8A29E1C7C799D00ECDA20 /* MMVMGamePlayViewController.m in Sources */,
 				ACB3E3D61C7AE1B40070B6A5 /* designpatterns.xcdatamodeld in Sources */,
 				ACB3E4051C7AE27D0070B6A5 /* MVCOptionsTableViewCell.m in Sources */,
-				ACB8A2AA1C7C825C00ECDA20 /* MMVMProductListingTableCell.m in Sources */,
 				ACB3E3D11C7AE1900070B6A5 /* GKBSuperViewController.m in Sources */,
 				ACB3E3CE1C7AE1900070B6A5 /* GKBPaddedTextField.m in Sources */,
 				ACB8A28F1C7C6DF300ECDA20 /* MMVMPackageListingViewController.m in Sources */,
@@ -924,7 +899,6 @@
 				ACB3E3B31C7AE1900070B6A5 /* GKBDataConverter.m in Sources */,
 				ACB3E3BC1C7AE1900070B6A5 /* GKBQuestion.m in Sources */,
 				ACB3E3BF1C7AE1900070B6A5 /* GKBTest+CoreDataProperties.m in Sources */,
-				ACB3E4081C7AE27D0070B6A5 /* MVCChartCollectionViewCell.m in Sources */,
 				ACB3E40B1C7AE27D0070B6A5 /* MVCListingTableViewCell.m in Sources */,
 				ACB3E3C51C7AE1900070B6A5 /* GKBNavigationBar.m in Sources */,
 				ACB3E4221C7B16760070B6A5 /* NSString+DesignPatterns.m in Sources */,

@@ -8,7 +8,7 @@
 
 #import "MMVMPackageListingViewModel.h"
 #import "GKBTest.h"
-#import "MVCGamePlayViewController.h"
+#import "MMVMGamePlayViewController.h"
 #import "GKBDataSourceManager.h"
 
 @interface MMVMPackageListingViewModel ()
@@ -26,7 +26,6 @@
     }
     return self;
 }
-
 
 -(NSInteger)numberOfRows
 {
@@ -52,8 +51,8 @@
 
 -(void)tableCellTapped:(NSIndexPath*)indexPath
 {
-    MVCGamePlayViewController *gameViewController = [[UIStoryboard gameMVCStoryBoard] instantiateViewControllerWithIdentifier:@"CDGamePlayVC"];
-    gameViewController.test = self.testsArray[indexPath.row];
+    MMVMGamePlayViewController *gameViewController = [[UIStoryboard gameMMVMStoryBoard] instantiateViewControllerWithIdentifier:@"CDGamePlayVC"];
+    gameViewController.viewModel.test = self.testsArray[indexPath.row];
     [BASE_VIEWCONTROLLER pushViewController:gameViewController withAnimation:YES];
 }
 

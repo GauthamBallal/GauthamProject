@@ -33,9 +33,9 @@
 */
 
 - (IBAction)settingsButtonTapped:(UIButton *)sender {
-    UIViewController *settingsVC = [[UIStoryboard loginStoryBoard] instantiateViewControllerWithIdentifier:@"CDSettingsVC"];
-    
-    [BASE_VIEWCONTROLLER pushViewController:settingsVC withAnimation:YES];
+//    UIViewController *settingsVC = [[UIStoryboard loginStoryBoard] instantiateViewControllerWithIdentifier:@"CDSettingsVC"];
+//    
+//    [BASE_VIEWCONTROLLER pushViewController:settingsVC withAnimation:YES];
 }
 
 - (IBAction)hintButtonTapped:(UIButton *)sender {

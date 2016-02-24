@@ -9,6 +9,7 @@
 #import "GKBDataSourceManager.h"
 #import "GKBCoreData.h"
 #import <CoreData/CoreData.h>
+#import "GKBTest.h"
 
 @implementation GKBDataSourceManager
 
@@ -31,7 +32,12 @@ static GKBDataSourceManager *sharedObject = nil;
     NSFetchRequest *request = [[NSFetchRequest alloc] init];
     [request setEntity:entity];
     NSArray *objects = [context executeFetchRequest:request error:&error];
-    return objects;
+    NSMutableArray *mutableCopy = [[NSMutableArray alloc] initWithArray:objects];
+    [mutableCopy sortUsingComparator:^NSComparisonResult(GKBTest *obj1, GKBTest *obj2) {
+        return [obj1.testID intValue] > [obj2.testID intValue];
+    }];
+    
+    return [NSArray arrayWithArray:mutableCopy];
 }
 
 @end

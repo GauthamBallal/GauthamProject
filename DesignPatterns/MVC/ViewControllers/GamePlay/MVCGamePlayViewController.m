@@ -14,7 +14,6 @@
 #import "GKBDataSourceManager.h"
 #import "GKBTest.h"
 
-#define kTotalTime 300
 
 #define kMinimumHintHeight 128
 #define kExtraHeightAfterHint 86
@@ -51,19 +50,26 @@
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(hintTapped:) name:kHintNotification object:nil];
     
     // Do any additional setup after loading the view.
-    [self.timerButton setTitle:[self getTimeForSeconds:kTotalTime] forState:UIControlStateNormal];
+    [self.timerButton setTitle:[self getTimeForSeconds:kTotalGameTime] forState:UIControlStateNormal];
     
     self.timer = [NSTimer scheduledTimerWithTimeInterval:1.0 target:self selector:@selector(timerChanged) userInfo:nil repeats:YES];
     
-    GKBNavigationBar *customNavigationBar =  (GKBNavigationBar*)[self.navigationController.navigationBar viewWithTag:kCustomNavigationBarTag];
-    [customNavigationBar shouldHideHintButton:NO];
-    
+
+
     self.currentQuestion = 0;
 
     self.questionsArray = [self.test.questions allObjects];
     
     self.questionLabel.numberOfLines = 0;
     [self loadViewWithQuestion];
+}
+
+-(void)viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:animated];
+    GKBNavigationBar *customNavigationBar =  (GKBNavigationBar*)[self.navigationController.navigationBar viewWithTag:kCustomNavigationBarTag];
+    [customNavigationBar shouldHideHintButton:NO];
+    [customNavigationBar shouldHideBackButton:YES];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -87,7 +93,7 @@
 -(void)loadViewWithQuestion
 {
     GKBQuestion *question = [_questionsArray objectAtIndex:self.currentQuestion];
-
+    self.tableView.alpha = 0.1;
     NSString *questionText = [NSString stringWithFormat:@"Q %d.%@",self.currentQuestion+1,question.question];
     CGSize sizeForText = [questionText sizeOfStringWithFont:self.questionLabel.font constrainedToSize:CGSizeMake(self.questionLabel.frame.size.width, FLT_MAX) lineBreakMode:NSLineBreakByWordWrapping];
     [self.questionView setHeight:sizeForText.height + 30];
@@ -96,6 +102,9 @@
     
     [self.tableView setTableHeaderView:self.questionView];
     [self.tableView reloadData];
+    [UIView animateWithDuration:0.5 animations:^{
+        self.tableView.alpha = 1.0;
+    }];
 }
 
 -(NSString*)getTimeForSeconds:(int)time
@@ -108,15 +117,15 @@
 -(void)timerChanged
 {
     self.currentTime ++;
-    int timeLeft = (kTotalTime - self.currentTime);
+    int timeLeft = (kTotalGameTime - self.currentTime);
     [self.timerButton setTitle:[self getTimeForSeconds:timeLeft] forState:UIControlStateNormal];
 }
 
 -(float)heightForText:(NSString*)string
 {
-    self.testTextView.text = string;
-    CGSize myTextViewSize = [self.testTextView sizeThatFits:CGSizeMake(self.testTextView.frame.size.width, FLT_MAX)];
-    float height = myTextViewSize.height;
+    CGSize sizeForText = [string sizeOfStringWithFont:[UIFont helvaticaLight45WithSize:13.0] constrainedToSize:CGSizeMake(self.tableView.frame.size.width - 30.0, FLT_MAX) lineBreakMode:NSLineBreakByWordWrapping];
+    
+    float height = sizeForText.height;
     
     if(IR_SYS_VERSION_GREATER_THAN_OR_EQUAL_TO(@"7.0"))
         height += 2;
@@ -203,6 +212,7 @@
             break;
     }
     self.userSelectedAnswer = option;
+    [self nextButtonPressed:nil];
 }
 
 #pragma mark - Action Methods -

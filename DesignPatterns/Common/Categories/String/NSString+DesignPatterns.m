@@ -24,15 +24,13 @@
 {
     CGSize stringSize;
     
+    NSDictionary * stringAttributes = @{ NSFontAttributeName: font};
     
-    NSMutableParagraphStyle *paragraphStyle = [[NSMutableParagraphStyle alloc] init];
-    paragraphStyle.lineBreakMode = lineBreakMode;
+    CGRect rect = [self boundingRectWithSize:size
+                                     options:NSStringDrawingTruncatesLastVisibleLine|NSStringDrawingUsesLineFragmentOrigin
+                                  attributes:stringAttributes context:nil];
     
-    NSDictionary * stringAttributes = @{ NSFontAttributeName: font, paragraphStyle: NSParagraphStyleAttributeName};
-    
-    stringSize = [self boundingRectWithSize:size
-                                    options:NSStringDrawingTruncatesLastVisibleLine|NSStringDrawingUsesLineFragmentOrigin
-                                 attributes:stringAttributes context:nil].size;
+    stringSize = rect.size;
     
     stringSize = CGSizeMake(ceil(stringSize.width), ceil(stringSize.height));
     

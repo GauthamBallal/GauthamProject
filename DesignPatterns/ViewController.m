@@ -52,6 +52,7 @@
     GKBNavigationBar *customNavigationBar =  (GKBNavigationBar*)[self.navigationController.navigationBar viewWithTag:kCustomNavigationBarTag];
     [customNavigationBar shouldHideBackButton:NO];
     [customNavigationBar shouldHideHintButton:YES];
+    viewControllerToBePushed.navigationItem.hidesBackButton = YES;
     
     [self.navigationController pushViewController:viewControllerToBePushed animated:animation];
 }
