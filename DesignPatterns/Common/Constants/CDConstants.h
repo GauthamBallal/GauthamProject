@@ -41,4 +41,4 @@ typedef enum : NSUInteger {
     eMVP
 } DesignPattern;
 
-#define kTotalGameTime 10
+#define kTotalGameTime 240
