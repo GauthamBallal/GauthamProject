@@ -84,13 +84,11 @@
     [cell.answerButton setY:(cell.questionLabel.frame.origin.y + questionHeight + 20)];
     [cell.answerButton setHeight:(answerHeight+30)];
     cell.questionLabel.text = question;
+    
     if(userAnswer)
     {
-        NSString *userAnswerAppended = [NSString stringWithString:userAnswer];
-        userAnswerAppended = [userAnswerAppended stringByReplacingCharactersInRange:NSMakeRange(0, 3) withString:@""];
-        BOOL correctAnswer = [answer isEqualToString:userAnswerAppended] ? YES : NO;
+        BOOL correctAnswer = [_viewModel isUserAnswerCorrectForRow:indexPath.row];
         [cell setBackgroundForState:correctAnswer];
-        
         [cell.answerButton setAttributedTitle:[[NSAttributedString alloc]initWithString:answer] forState:UIControlStateNormal];
     }
     else

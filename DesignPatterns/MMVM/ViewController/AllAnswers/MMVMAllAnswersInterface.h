@@ -15,6 +15,7 @@
 -(NSString*)getQuestionTextForRow:(NSInteger)row;
 -(NSString*)getAnswerTextForRow:(NSInteger)row;
 -(NSString*)getUserAnswerTextForRow:(NSInteger)row;
+-(BOOL)isUserAnswerCorrectForRow:(NSInteger)row;
 
 -(void)goToMainMenuTapped;
 @end

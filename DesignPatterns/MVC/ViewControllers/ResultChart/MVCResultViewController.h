@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MVCResultViewController : UIViewController
+@interface MVCResultViewController : GKBSuperViewController
 @property (strong,nonatomic) NSArray *questionsArray;
 
 @end

@@ -39,4 +39,17 @@
     [BASE_VIEWCONTROLLER popViewRootViewControllerAnimated:YES];
 }
 
+-(BOOL)isUserAnswerCorrectForRow:(NSInteger)row
+{
+    GKBQuestion *question = self.questionsArray[row];
+    NSString *userAnswer = question.userAnswer;
+    NSString *answer = question.correctAnswer;
+    
+    NSString *userAnswerAppended = [NSString stringWithString:userAnswer];
+    userAnswerAppended = [userAnswerAppended stringByReplacingCharactersInRange:NSMakeRange(0, 3) withString:@""];
+    BOOL correctAnswer = [answer isEqualToString:userAnswerAppended] ? YES : NO;
+    
+    return correctAnswer;
+}
+
 @end
