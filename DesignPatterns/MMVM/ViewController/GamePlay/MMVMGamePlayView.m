@@ -6,7 +6,7 @@
 //  Copyright © 2016 Gautham Krishna Ballal. All rights reserved.
 //
 
-#import "MMVMGamePlayViewController.h"
+#import "MMVMGamePlayView.h"
 #import "GKBNavigationBar.h"
 #import "MVCOptionsTableViewCell.h"
 #import "GKBQuestion.h"
@@ -16,7 +16,7 @@
 #define kMinimumHintHeight 128
 #define kExtraHeightAfterHint 86
 
-@interface MMVMGamePlayViewController ()
+@interface MMVMGamePlayView ()
 
 @property (weak, nonatomic) IBOutlet UIButton *timerButton;
 @property (weak, nonatomic) IBOutlet UIButton *packageNameButton;
@@ -36,7 +36,7 @@
 
 @end
 
-@implementation MMVMGamePlayViewController
+@implementation MMVMGamePlayView
 
 - (instancetype)initWithCoder:(NSCoder *)coder
 {
@@ -51,11 +51,6 @@
     [super viewDidLoad];
     
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(hintTapped:) name:kHintNotification object:nil];
-    
-    // Do any additional setup after loading the view.
-//    [self.timerButton setTitle:[self getTimeForSeconds:kTotalGameTime] forState:UIControlStateNormal];
-    
-//    self.timer = [NSTimer scheduledTimerWithTimeInterval:1.0 target:self selector:@selector(timerChanged) userInfo:nil repeats:YES];
     
     self.questionLabel.numberOfLines = 0;
     [self loadViewWithQuestion];

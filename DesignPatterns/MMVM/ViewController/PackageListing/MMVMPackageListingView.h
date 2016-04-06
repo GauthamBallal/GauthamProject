@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MMVMPackageListingViewController : UIViewController
+@interface MMVMPackageListingView : UIViewController
 
 @end

@@ -10,7 +10,7 @@
 
 #import "MMVMAllAnswersViewModel.h"
 
-@interface MMVMAllAnswersViewController : UIViewController
+@interface MMVMAllAnswersView : UIViewController
 
 @property (strong,nonatomic) MMVMAllAnswersViewModel *viewModel;
 

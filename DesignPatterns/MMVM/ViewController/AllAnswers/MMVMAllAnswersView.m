@@ -6,17 +6,17 @@
 //  Copyright © 2016 Gautham Krishna Ballal. All rights reserved.
 //
 
-#import "MMVMAllAnswersViewController.h"
+#import "MMVMAllAnswersView.h"
 #import "GKBQuestion.h"
 #import "MMVMAllAnswersTableViewCell.h"
 
-@interface MMVMAllAnswersViewController ()
+@interface MMVMAllAnswersView ()
 @property (weak, nonatomic) IBOutlet UITableView *allAnswersTableView;
 
 - (IBAction)goToMainMenuTapped:(id)sender;
 @end
 
-@implementation MMVMAllAnswersViewController
+@implementation MMVMAllAnswersView
 
 - (instancetype)initWithCoder:(NSCoder *)coder
 {

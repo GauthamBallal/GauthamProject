@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9060" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="bbA-kA-BG3">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="bbA-kA-BG3">
     <dependencies>
-        <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
     </dependencies>
     <customFonts key="customFonts">
         <mutableArray key="HelveticaNeueLTStd-Lt.otf">
@@ -29,10 +28,10 @@
         </mutableArray>
     </customFonts>
     <scenes>
-        <!--Package Listing View Controller-->
+        <!--Package Listing View-->
         <scene sceneID="3kK-Jc-dJY">
             <objects>
-                <viewController storyboardIdentifier="MMVMPackageListingVC" id="bbA-kA-BG3" customClass="MMVMPackageListingViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="MMVMPackageListingVC" id="bbA-kA-BG3" customClass="MMVMPackageListingView" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="wsy-4s-pzU">
                         <rect key="frame" x="0.0" y="64" width="320" height="504"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -125,10 +124,10 @@
             </objects>
             <point key="canvasLocation" x="259.73333333333335" y="347.42666666666668"/>
         </scene>
-        <!--Game Play View Controller-->
+        <!--Game Play View-->
         <scene sceneID="WhC-Z2-HFo">
             <objects>
-                <viewController storyboardIdentifier="CDGamePlayVC" id="qi8-Qc-nK3" customClass="MMVMGamePlayViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="CDGamePlayVC" id="qi8-Qc-nK3" customClass="MMVMGamePlayView" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="7GC-1x-Iv1">
                         <rect key="frame" x="0.0" y="64" width="320" height="504"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -338,10 +337,10 @@
             </objects>
             <point key="canvasLocation" x="738" y="347"/>
         </scene>
-        <!--Result View Controller-->
+        <!--Result View-->
         <scene sceneID="fnW-Qs-iuX">
             <objects>
-                <viewController storyboardIdentifier="CDResultChartVC" id="zEl-eX-j3o" customClass="MMVMResultViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="CDResultChartVC" id="zEl-eX-j3o" customClass="MMVMResultView" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="KuS-8a-LRT">
                         <rect key="frame" x="0.0" y="64" width="320" height="504"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -372,7 +371,7 @@
                                 <rect key="frame" x="20" y="37" width="280" height="331"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeueLTStd-Roman" family="Helvetica Neue LT Std" pointSize="100"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
@@ -388,10 +387,10 @@
             </objects>
             <point key="canvasLocation" x="1258" y="360"/>
         </scene>
-        <!--All Answers View Controller-->
+        <!--All Answers View-->
         <scene sceneID="jdD-FI-Cnp">
             <objects>
-                <viewController storyboardIdentifier="CDAllAnswersVC" id="GM0-Om-nsY" customClass="MMVMAllAnswersViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="CDAllAnswersVC" id="GM0-Om-nsY" customClass="MMVMAllAnswersView" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="44M-dQ-ZtX">
                         <rect key="frame" x="0.0" y="64" width="320" height="504"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

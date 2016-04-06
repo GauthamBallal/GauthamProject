@@ -8,7 +8,7 @@
 
 #import "MMVMResultViewModel.h"
 #import "GKBQuestion.h"
-#import "MMVMAllAnswersViewController.h"
+#import "MMVMAllAnswersView.h"
 #import "GKBTest.h"
 
 @implementation MMVMResultViewModel
@@ -31,7 +31,7 @@
 
 -(void)showAllAnswerButonTapped
 {
-    MMVMAllAnswersViewController *allAnswers = [[UIStoryboard gameMMVMStoryBoard] instantiateViewControllerWithIdentifier:@"CDAllAnswersVC"];
+    MMVMAllAnswersView *allAnswers = [[UIStoryboard gameMMVMStoryBoard] instantiateViewControllerWithIdentifier:@"CDAllAnswersVC"];
     allAnswers.viewModel.questionsArray = _answers;
     [BASE_VIEWCONTROLLER pushViewController:allAnswers withAnimation:YES];
 }

@@ -7,15 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AC9F4C611C7DC4B80081A7A9 /* MMVMResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC9F4C601C7DC4B80081A7A9 /* MMVMResultViewController.m */; };
-		AC9F4C621C7DC4B80081A7A9 /* MMVMResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC9F4C601C7DC4B80081A7A9 /* MMVMResultViewController.m */; };
-		AC9F4C631C7DC4B80081A7A9 /* MMVMResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC9F4C601C7DC4B80081A7A9 /* MMVMResultViewController.m */; };
+		AC9F4C611C7DC4B80081A7A9 /* MMVMResultView.m in Sources */ = {isa = PBXBuildFile; fileRef = AC9F4C601C7DC4B80081A7A9 /* MMVMResultView.m */; };
+		AC9F4C621C7DC4B80081A7A9 /* MMVMResultView.m in Sources */ = {isa = PBXBuildFile; fileRef = AC9F4C601C7DC4B80081A7A9 /* MMVMResultView.m */; };
+		AC9F4C631C7DC4B80081A7A9 /* MMVMResultView.m in Sources */ = {isa = PBXBuildFile; fileRef = AC9F4C601C7DC4B80081A7A9 /* MMVMResultView.m */; };
 		AC9F4C661C7DC4D10081A7A9 /* MMVMResultViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AC9F4C651C7DC4D10081A7A9 /* MMVMResultViewModel.m */; };
 		AC9F4C671C7DC4D10081A7A9 /* MMVMResultViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AC9F4C651C7DC4D10081A7A9 /* MMVMResultViewModel.m */; };
 		AC9F4C681C7DC4D10081A7A9 /* MMVMResultViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AC9F4C651C7DC4D10081A7A9 /* MMVMResultViewModel.m */; };
-		AC9F4C6E1C7DCCB20081A7A9 /* MMVMAllAnswersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC9F4C6D1C7DCCB20081A7A9 /* MMVMAllAnswersViewController.m */; };
-		AC9F4C6F1C7DCCB20081A7A9 /* MMVMAllAnswersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC9F4C6D1C7DCCB20081A7A9 /* MMVMAllAnswersViewController.m */; };
-		AC9F4C701C7DCCB20081A7A9 /* MMVMAllAnswersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC9F4C6D1C7DCCB20081A7A9 /* MMVMAllAnswersViewController.m */; };
+		AC9F4C6E1C7DCCB20081A7A9 /* MMVMAllAnswersView.m in Sources */ = {isa = PBXBuildFile; fileRef = AC9F4C6D1C7DCCB20081A7A9 /* MMVMAllAnswersView.m */; };
+		AC9F4C6F1C7DCCB20081A7A9 /* MMVMAllAnswersView.m in Sources */ = {isa = PBXBuildFile; fileRef = AC9F4C6D1C7DCCB20081A7A9 /* MMVMAllAnswersView.m */; };
+		AC9F4C701C7DCCB20081A7A9 /* MMVMAllAnswersView.m in Sources */ = {isa = PBXBuildFile; fileRef = AC9F4C6D1C7DCCB20081A7A9 /* MMVMAllAnswersView.m */; };
 		AC9F4C731C7DCCD30081A7A9 /* MMVMAllAnswersViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AC9F4C721C7DCCD30081A7A9 /* MMVMAllAnswersViewModel.m */; };
 		AC9F4C741C7DCCD30081A7A9 /* MMVMAllAnswersViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AC9F4C721C7DCCD30081A7A9 /* MMVMAllAnswersViewModel.m */; };
 		AC9F4C751C7DCCD30081A7A9 /* MMVMAllAnswersViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AC9F4C721C7DCCD30081A7A9 /* MMVMAllAnswersViewModel.m */; };
@@ -117,18 +117,18 @@
 		ACB3E42A1C7B16E30070B6A5 /* UIStoryboard+DesignPatterns.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB3E4291C7B16E30070B6A5 /* UIStoryboard+DesignPatterns.m */; };
 		ACB3E42B1C7B16E30070B6A5 /* UIStoryboard+DesignPatterns.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB3E4291C7B16E30070B6A5 /* UIStoryboard+DesignPatterns.m */; };
 		ACB3E42C1C7B16E30070B6A5 /* UIStoryboard+DesignPatterns.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB3E4291C7B16E30070B6A5 /* UIStoryboard+DesignPatterns.m */; };
-		ACB8A28D1C7C6DF300ECDA20 /* MMVMPackageListingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB8A28C1C7C6DF300ECDA20 /* MMVMPackageListingViewController.m */; };
-		ACB8A28E1C7C6DF300ECDA20 /* MMVMPackageListingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB8A28C1C7C6DF300ECDA20 /* MMVMPackageListingViewController.m */; };
-		ACB8A28F1C7C6DF300ECDA20 /* MMVMPackageListingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB8A28C1C7C6DF300ECDA20 /* MMVMPackageListingViewController.m */; };
+		ACB8A28D1C7C6DF300ECDA20 /* MMVMPackageListingView.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB8A28C1C7C6DF300ECDA20 /* MMVMPackageListingView.m */; };
+		ACB8A28E1C7C6DF300ECDA20 /* MMVMPackageListingView.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB8A28C1C7C6DF300ECDA20 /* MMVMPackageListingView.m */; };
+		ACB8A28F1C7C6DF300ECDA20 /* MMVMPackageListingView.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB8A28C1C7C6DF300ECDA20 /* MMVMPackageListingView.m */; };
 		ACB8A2911C7C6E0600ECDA20 /* MMVMGameStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACB8A2901C7C6E0600ECDA20 /* MMVMGameStoryboard.storyboard */; };
 		ACB8A2921C7C6E0600ECDA20 /* MMVMGameStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACB8A2901C7C6E0600ECDA20 /* MMVMGameStoryboard.storyboard */; };
 		ACB8A2931C7C6E0600ECDA20 /* MMVMGameStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACB8A2901C7C6E0600ECDA20 /* MMVMGameStoryboard.storyboard */; };
 		ACB8A2971C7C6EA600ECDA20 /* MMVMPackageListingViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB8A2961C7C6EA600ECDA20 /* MMVMPackageListingViewModel.m */; };
 		ACB8A2981C7C6EA600ECDA20 /* MMVMPackageListingViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB8A2961C7C6EA600ECDA20 /* MMVMPackageListingViewModel.m */; };
 		ACB8A2991C7C6EA600ECDA20 /* MMVMPackageListingViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB8A2961C7C6EA600ECDA20 /* MMVMPackageListingViewModel.m */; };
-		ACB8A29C1C7C799D00ECDA20 /* MMVMGamePlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB8A29B1C7C799D00ECDA20 /* MMVMGamePlayViewController.m */; };
-		ACB8A29D1C7C799D00ECDA20 /* MMVMGamePlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB8A29B1C7C799D00ECDA20 /* MMVMGamePlayViewController.m */; };
-		ACB8A29E1C7C799D00ECDA20 /* MMVMGamePlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB8A29B1C7C799D00ECDA20 /* MMVMGamePlayViewController.m */; };
+		ACB8A29C1C7C799D00ECDA20 /* MMVMGamePlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB8A29B1C7C799D00ECDA20 /* MMVMGamePlayView.m */; };
+		ACB8A29D1C7C799D00ECDA20 /* MMVMGamePlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB8A29B1C7C799D00ECDA20 /* MMVMGamePlayView.m */; };
+		ACB8A29E1C7C799D00ECDA20 /* MMVMGamePlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB8A29B1C7C799D00ECDA20 /* MMVMGamePlayView.m */; };
 		ACB8A2A21C7C79C000ECDA20 /* MMVMGamePlayViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB8A2A11C7C79C000ECDA20 /* MMVMGamePlayViewModel.m */; };
 		ACB8A2A31C7C79C000ECDA20 /* MMVMGamePlayViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB8A2A11C7C79C000ECDA20 /* MMVMGamePlayViewModel.m */; };
 		ACB8A2A41C7C79C000ECDA20 /* MMVMGamePlayViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB8A2A11C7C79C000ECDA20 /* MMVMGamePlayViewModel.m */; };
@@ -153,13 +153,13 @@
 
 /* Begin PBXFileReference section */
 		AC9F4C571C7D96350081A7A9 /* MMVMGamePlayInterface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMVMGamePlayInterface.h; sourceTree = "<group>"; };
-		AC9F4C5F1C7DC4B80081A7A9 /* MMVMResultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMVMResultViewController.h; sourceTree = "<group>"; };
-		AC9F4C601C7DC4B80081A7A9 /* MMVMResultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMVMResultViewController.m; sourceTree = "<group>"; };
+		AC9F4C5F1C7DC4B80081A7A9 /* MMVMResultView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMVMResultView.h; sourceTree = "<group>"; };
+		AC9F4C601C7DC4B80081A7A9 /* MMVMResultView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMVMResultView.m; sourceTree = "<group>"; };
 		AC9F4C641C7DC4D10081A7A9 /* MMVMResultViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMVMResultViewModel.h; sourceTree = "<group>"; };
 		AC9F4C651C7DC4D10081A7A9 /* MMVMResultViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMVMResultViewModel.m; sourceTree = "<group>"; };
 		AC9F4C691C7DC5150081A7A9 /* MMVMResultInterface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMVMResultInterface.h; sourceTree = "<group>"; };
-		AC9F4C6C1C7DCCB20081A7A9 /* MMVMAllAnswersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMVMAllAnswersViewController.h; sourceTree = "<group>"; };
-		AC9F4C6D1C7DCCB20081A7A9 /* MMVMAllAnswersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMVMAllAnswersViewController.m; sourceTree = "<group>"; };
+		AC9F4C6C1C7DCCB20081A7A9 /* MMVMAllAnswersView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMVMAllAnswersView.h; sourceTree = "<group>"; };
+		AC9F4C6D1C7DCCB20081A7A9 /* MMVMAllAnswersView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMVMAllAnswersView.m; sourceTree = "<group>"; };
 		AC9F4C711C7DCCD30081A7A9 /* MMVMAllAnswersViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMVMAllAnswersViewModel.h; sourceTree = "<group>"; };
 		AC9F4C721C7DCCD30081A7A9 /* MMVMAllAnswersViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMVMAllAnswersViewModel.m; sourceTree = "<group>"; };
 		AC9F4C761C7DCEAC0081A7A9 /* MMVMAllAnswersInterface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMVMAllAnswersInterface.h; sourceTree = "<group>"; };
@@ -234,13 +234,13 @@
 		ACB3E4241C7B16A80070B6A5 /* UIFont+DesignPatterns.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+DesignPatterns.m"; sourceTree = "<group>"; };
 		ACB3E4281C7B16E30070B6A5 /* UIStoryboard+DesignPatterns.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIStoryboard+DesignPatterns.h"; sourceTree = "<group>"; };
 		ACB3E4291C7B16E30070B6A5 /* UIStoryboard+DesignPatterns.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIStoryboard+DesignPatterns.m"; sourceTree = "<group>"; };
-		ACB8A28B1C7C6DF300ECDA20 /* MMVMPackageListingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMVMPackageListingViewController.h; sourceTree = "<group>"; };
-		ACB8A28C1C7C6DF300ECDA20 /* MMVMPackageListingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMVMPackageListingViewController.m; sourceTree = "<group>"; };
+		ACB8A28B1C7C6DF300ECDA20 /* MMVMPackageListingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMVMPackageListingView.h; sourceTree = "<group>"; };
+		ACB8A28C1C7C6DF300ECDA20 /* MMVMPackageListingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMVMPackageListingView.m; sourceTree = "<group>"; };
 		ACB8A2901C7C6E0600ECDA20 /* MMVMGameStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MMVMGameStoryboard.storyboard; sourceTree = "<group>"; };
 		ACB8A2951C7C6EA600ECDA20 /* MMVMPackageListingViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMVMPackageListingViewModel.h; sourceTree = "<group>"; };
 		ACB8A2961C7C6EA600ECDA20 /* MMVMPackageListingViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMVMPackageListingViewModel.m; sourceTree = "<group>"; };
-		ACB8A29A1C7C799D00ECDA20 /* MMVMGamePlayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMVMGamePlayViewController.h; sourceTree = "<group>"; };
-		ACB8A29B1C7C799D00ECDA20 /* MMVMGamePlayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMVMGamePlayViewController.m; sourceTree = "<group>"; };
+		ACB8A29A1C7C799D00ECDA20 /* MMVMGamePlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMVMGamePlayView.h; sourceTree = "<group>"; };
+		ACB8A29B1C7C799D00ECDA20 /* MMVMGamePlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMVMGamePlayView.m; sourceTree = "<group>"; };
 		ACB8A2A01C7C79C000ECDA20 /* MMVMGamePlayViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMVMGamePlayViewModel.h; sourceTree = "<group>"; };
 		ACB8A2A11C7C79C000ECDA20 /* MMVMGamePlayViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMVMGamePlayViewModel.m; sourceTree = "<group>"; };
 		ACB8A2A51C7C806700ECDA20 /* MMVMPackageListingInterface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMVMPackageListingInterface.h; sourceTree = "<group>"; };
@@ -284,8 +284,8 @@
 			isa = PBXGroup;
 			children = (
 				AC9F4C691C7DC5150081A7A9 /* MMVMResultInterface.h */,
-				AC9F4C5F1C7DC4B80081A7A9 /* MMVMResultViewController.h */,
-				AC9F4C601C7DC4B80081A7A9 /* MMVMResultViewController.m */,
+				AC9F4C5F1C7DC4B80081A7A9 /* MMVMResultView.h */,
+				AC9F4C601C7DC4B80081A7A9 /* MMVMResultView.m */,
 			);
 			path = Result;
 			sourceTree = "<group>";
@@ -303,8 +303,8 @@
 			isa = PBXGroup;
 			children = (
 				AC9F4C761C7DCEAC0081A7A9 /* MMVMAllAnswersInterface.h */,
-				AC9F4C6C1C7DCCB20081A7A9 /* MMVMAllAnswersViewController.h */,
-				AC9F4C6D1C7DCCB20081A7A9 /* MMVMAllAnswersViewController.m */,
+				AC9F4C6C1C7DCCB20081A7A9 /* MMVMAllAnswersView.h */,
+				AC9F4C6D1C7DCCB20081A7A9 /* MMVMAllAnswersView.m */,
 				AC9F4C771C7DD05F0081A7A9 /* MMVMAllAnswersTableViewCell.h */,
 				AC9F4C781C7DD05F0081A7A9 /* MMVMAllAnswersTableViewCell.m */,
 			);
@@ -684,8 +684,8 @@
 			isa = PBXGroup;
 			children = (
 				AC9F4C571C7D96350081A7A9 /* MMVMGamePlayInterface.h */,
-				ACB8A29A1C7C799D00ECDA20 /* MMVMGamePlayViewController.h */,
-				ACB8A29B1C7C799D00ECDA20 /* MMVMGamePlayViewController.m */,
+				ACB8A29A1C7C799D00ECDA20 /* MMVMGamePlayView.h */,
+				ACB8A29B1C7C799D00ECDA20 /* MMVMGamePlayView.m */,
 			);
 			path = GamePlay;
 			sourceTree = "<group>";
@@ -694,8 +694,8 @@
 			isa = PBXGroup;
 			children = (
 				ACB8A2A51C7C806700ECDA20 /* MMVMPackageListingInterface.h */,
-				ACB8A28B1C7C6DF300ECDA20 /* MMVMPackageListingViewController.h */,
-				ACB8A28C1C7C6DF300ECDA20 /* MMVMPackageListingViewController.m */,
+				ACB8A28B1C7C6DF300ECDA20 /* MMVMPackageListingView.h */,
+				ACB8A28C1C7C6DF300ECDA20 /* MMVMPackageListingView.m */,
 			);
 			path = PackageListing;
 			sourceTree = "<group>";
@@ -891,18 +891,18 @@
 				ACB3E3F41C7AE27D0070B6A5 /* MVCAllAnswersViewController.m in Sources */,
 				ACB3E3AB1C7AE1900070B6A5 /* CDConstants.m in Sources */,
 				ACB3E3BA1C7AE1900070B6A5 /* GKBQuestion.m in Sources */,
-				AC9F4C6E1C7DCCB20081A7A9 /* MMVMAllAnswersViewController.m in Sources */,
+				AC9F4C6E1C7DCCB20081A7A9 /* MMVMAllAnswersView.m in Sources */,
 				ACB3E3C31C7AE1900070B6A5 /* GKBNavigationBar.m in Sources */,
 				ACB8A2A21C7C79C000ECDA20 /* MMVMGamePlayViewModel.m in Sources */,
 				ACB3E4031C7AE27D0070B6A5 /* MVCOptionsTableViewCell.m in Sources */,
 				ACB3E3C91C7AE1900070B6A5 /* CDSettingsModel.m in Sources */,
 				ACB3E4201C7B16760070B6A5 /* NSString+DesignPatterns.m in Sources */,
 				ACB3E3D41C7AE1B40070B6A5 /* designpatterns.xcdatamodeld in Sources */,
-				AC9F4C611C7DC4B80081A7A9 /* MMVMResultViewController.m in Sources */,
+				AC9F4C611C7DC4B80081A7A9 /* MMVMResultView.m in Sources */,
 				ACB8A2971C7C6EA600ECDA20 /* MMVMPackageListingViewModel.m in Sources */,
 				ACB3E3BD1C7AE1900070B6A5 /* GKBTest+CoreDataProperties.m in Sources */,
 				ACB3E3B11C7AE1900070B6A5 /* GKBDataConverter.m in Sources */,
-				ACB8A28D1C7C6DF300ECDA20 /* MMVMPackageListingViewController.m in Sources */,
+				ACB8A28D1C7C6DF300ECDA20 /* MMVMPackageListingView.m in Sources */,
 				ACB3E4091C7AE27D0070B6A5 /* MVCListingTableViewCell.m in Sources */,
 				ACB3E3CF1C7AE1900070B6A5 /* GKBSuperViewController.m in Sources */,
 				ACB3E3B71C7AE1900070B6A5 /* GKBQuestion+CoreDataProperties.m in Sources */,
@@ -911,7 +911,7 @@
 				ACB3E33C1C7AE1530070B6A5 /* main.m in Sources */,
 				ACB3E3CC1C7AE1900070B6A5 /* GKBPaddedTextField.m in Sources */,
 				AC9F4C791C7DD05F0081A7A9 /* MMVMAllAnswersTableViewCell.m in Sources */,
-				ACB8A29C1C7C799D00ECDA20 /* MMVMGamePlayViewController.m in Sources */,
+				ACB8A29C1C7C799D00ECDA20 /* MMVMGamePlayView.m in Sources */,
 				ACB3E3B41C7AE1900070B6A5 /* GKBDataSourceManager.m in Sources */,
 				ACB3E42A1C7B16E30070B6A5 /* UIStoryboard+DesignPatterns.m in Sources */,
 			);
@@ -921,13 +921,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ACB8A29D1C7C799D00ECDA20 /* MMVMGamePlayViewController.m in Sources */,
+				ACB8A29D1C7C799D00ECDA20 /* MMVMGamePlayView.m in Sources */,
 				ACB3E3D51C7AE1B40070B6A5 /* designpatterns.xcdatamodeld in Sources */,
 				ACB3E4041C7AE27D0070B6A5 /* MVCOptionsTableViewCell.m in Sources */,
 				ACB3E3D01C7AE1900070B6A5 /* GKBSuperViewController.m in Sources */,
-				AC9F4C621C7DC4B80081A7A9 /* MMVMResultViewController.m in Sources */,
+				AC9F4C621C7DC4B80081A7A9 /* MMVMResultView.m in Sources */,
 				ACB3E3CD1C7AE1900070B6A5 /* GKBPaddedTextField.m in Sources */,
-				ACB8A28E1C7C6DF300ECDA20 /* MMVMPackageListingViewController.m in Sources */,
+				ACB8A28E1C7C6DF300ECDA20 /* MMVMPackageListingView.m in Sources */,
 				ACB3E3FB1C7AE27D0070B6A5 /* MVCPackageListingViewController.m in Sources */,
 				ACB3E4011C7AE27D0070B6A5 /* MVCAllAnswersTableViewCell.m in Sources */,
 				AC9F4C671C7DC4D10081A7A9 /* MMVMResultViewModel.m in Sources */,
@@ -937,7 +937,7 @@
 				ACB3E3AC1C7AE1900070B6A5 /* CDConstants.m in Sources */,
 				ACB3E3A31C7AE1900070B6A5 /* UIView+FrameSetter.m in Sources */,
 				ACB3E3C11C7AE1900070B6A5 /* GKBTest.m in Sources */,
-				AC9F4C6F1C7DCCB20081A7A9 /* MMVMAllAnswersViewController.m in Sources */,
+				AC9F4C6F1C7DCCB20081A7A9 /* MMVMAllAnswersView.m in Sources */,
 				ACB3E3B21C7AE1900070B6A5 /* GKBDataConverter.m in Sources */,
 				ACB3E3BB1C7AE1900070B6A5 /* GKBQuestion.m in Sources */,
 				ACB3E3BE1C7AE1900070B6A5 /* GKBTest+CoreDataProperties.m in Sources */,
@@ -962,13 +962,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ACB8A29E1C7C799D00ECDA20 /* MMVMGamePlayViewController.m in Sources */,
+				ACB8A29E1C7C799D00ECDA20 /* MMVMGamePlayView.m in Sources */,
 				ACB3E3D61C7AE1B40070B6A5 /* designpatterns.xcdatamodeld in Sources */,
 				ACB3E4051C7AE27D0070B6A5 /* MVCOptionsTableViewCell.m in Sources */,
 				ACB3E3D11C7AE1900070B6A5 /* GKBSuperViewController.m in Sources */,
-				AC9F4C631C7DC4B80081A7A9 /* MMVMResultViewController.m in Sources */,
+				AC9F4C631C7DC4B80081A7A9 /* MMVMResultView.m in Sources */,
 				ACB3E3CE1C7AE1900070B6A5 /* GKBPaddedTextField.m in Sources */,
-				ACB8A28F1C7C6DF300ECDA20 /* MMVMPackageListingViewController.m in Sources */,
+				ACB8A28F1C7C6DF300ECDA20 /* MMVMPackageListingView.m in Sources */,
 				ACB3E3FC1C7AE27D0070B6A5 /* MVCPackageListingViewController.m in Sources */,
 				ACB3E4021C7AE27D0070B6A5 /* MVCAllAnswersTableViewCell.m in Sources */,
 				AC9F4C681C7DC4D10081A7A9 /* MMVMResultViewModel.m in Sources */,
@@ -978,7 +978,7 @@
 				ACB3E3AD1C7AE1900070B6A5 /* CDConstants.m in Sources */,
 				ACB3E3A41C7AE1900070B6A5 /* UIView+FrameSetter.m in Sources */,
 				ACB3E3C21C7AE1900070B6A5 /* GKBTest.m in Sources */,
-				AC9F4C701C7DCCB20081A7A9 /* MMVMAllAnswersViewController.m in Sources */,
+				AC9F4C701C7DCCB20081A7A9 /* MMVMAllAnswersView.m in Sources */,
 				ACB3E3B31C7AE1900070B6A5 /* GKBDataConverter.m in Sources */,
 				ACB3E3BC1C7AE1900070B6A5 /* GKBQuestion.m in Sources */,
 				ACB3E3BF1C7AE1900070B6A5 /* GKBTest+CoreDataProperties.m in Sources */,
@@ -1119,12 +1119,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = DesignPatterns/DesignPatterns.pch;
 				INFOPLIST_FILE = DesignPatterns/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.gkb.DesignPatterns;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Robosoft.DesignPatterns;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "95957e64-f0fb-47ea-bf16-8e3d01fbedfb";
 			};
 			name = Debug;
 		};
@@ -1133,12 +1136,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = DesignPatterns/DesignPatterns.pch;
 				INFOPLIST_FILE = DesignPatterns/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.gkb.DesignPatterns;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Robosoft.DesignPatterns;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "95957e64-f0fb-47ea-bf16-8e3d01fbedfb";
 			};
 			name = Release;
 		};

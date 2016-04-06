@@ -6,15 +6,15 @@
 //  Copyright © 2016 Gautham Krishna Ballal. All rights reserved.
 //
 
-#import "MMVMPackageListingViewController.h"
+#import "MMVMPackageListingView.h"
 #import "MMVMPackageListingViewModel.h"
 
-@interface MMVMPackageListingViewController ()
+@interface MMVMPackageListingView ()
 @property (weak, nonatomic) IBOutlet UITableView *packageListingTableView;
 @property (strong, nonatomic) MMVMPackageListingViewModel *viewModel;
 @end
 
-@implementation MMVMPackageListingViewController
+@implementation MMVMPackageListingView
 
 - (instancetype)initWithCoder:(NSCoder *)coder
 {

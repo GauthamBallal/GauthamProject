@@ -7,7 +7,7 @@
 //
 
 #import "MMVMGamePlayViewModel.h"
-#import "MMVMResultViewController.h"
+#import "MMVMResultView.h"
 #import "GKBQuestion.h"
 
 
@@ -163,7 +163,7 @@
         self.timer = nil;
     }
     
-    MMVMResultViewController *allAnswers = [[UIStoryboard gameMMVMStoryBoard] instantiateViewControllerWithIdentifier:@"CDResultChartVC"];
+    MMVMResultView *allAnswers = [[UIStoryboard gameMMVMStoryBoard] instantiateViewControllerWithIdentifier:@"CDResultChartVC"];
     allAnswers.viewModel.answers = self.questionsArray;
     [BASE_VIEWCONTROLLER pushViewController:allAnswers withAnimation:YES];
 }

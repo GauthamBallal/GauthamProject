@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "MMVMGamePlayViewModel.h"
 
-@interface MMVMGamePlayViewController : UIViewController
+@interface MMVMGamePlayView : UIViewController
 
 @property (strong,nonatomic) MMVMGamePlayViewModel *viewModel;
 

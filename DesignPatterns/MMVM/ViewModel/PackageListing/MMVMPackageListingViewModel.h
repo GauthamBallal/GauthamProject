@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "MMVMPackageListingViewController.h"
+#import "MMVMPackageListingView.h"
 #import "MMVMPackageListingInterface.h"
 
 @interface MMVMPackageListingViewModel : NSObject <MMVMPackageListingInterface>

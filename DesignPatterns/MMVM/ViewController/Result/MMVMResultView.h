@@ -10,7 +10,7 @@
 #import "MMVMResultViewModel.h"
 
 
-@interface MMVMResultViewController : UIViewController
+@interface MMVMResultView : UIViewController
 
 @property(nonatomic,strong) MMVMResultViewModel *viewModel;
 

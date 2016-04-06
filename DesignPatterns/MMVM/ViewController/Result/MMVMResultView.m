@@ -6,17 +6,17 @@
 //  Copyright © 2016 Gautham Krishna Ballal. All rights reserved.
 //
 
-#import "MMVMResultViewController.h"
+#import "MMVMResultView.h"
 #import "GKBNavigationBar.h"
 
-@interface MMVMResultViewController ()
+@interface MMVMResultView ()
 
 @property (weak, nonatomic) IBOutlet UILabel *resultLabel;
 - (IBAction)showAnswersButtonTapped:(id)sender;
 
 @end
 
-@implementation MMVMResultViewController
+@implementation MMVMResultView
 
 - (instancetype)initWithCoder:(NSCoder *)coder
 {
