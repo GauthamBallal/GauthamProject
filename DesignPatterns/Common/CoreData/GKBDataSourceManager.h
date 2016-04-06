@@ -7,8 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "MVPPackageListingInteractor.h"
 
-@interface GKBDataSourceManager : NSObject
+@interface GKBDataSourceManager : NSObject <MVPPackageListingInteractor>
 + (GKBDataSourceManager*)sharedGKBDataSourceManager;
 
 -(NSArray*)getAllTests;
