@@ -7,7 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
+@class GKBTest;
 
 @protocol MVPPackageListingInteractor <NSObject>
 -(NSArray*)getAllTests;
+-(void)setSelectedTest:(GKBTest *)selectedTest;
 @end

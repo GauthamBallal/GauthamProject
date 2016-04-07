@@ -72,7 +72,7 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    
+    [self.presenter cellTappedAtIndex:indexPath.row];
 }
 
 

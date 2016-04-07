@@ -31,8 +31,9 @@
 @property (weak, nonatomic) IBOutlet UILabel *hintLabel;
 
 @property (assign,nonatomic) int currentTime;
-@property (nonatomic,strong) NSString *userSelectedAnswer;
 @property (nonatomic,strong) NSTimer *timer;
+
+@property (nonatomic,strong) NSString *userSelectedAnswer;
 @property (strong,nonatomic) NSArray *questionsArray;
 @property (assign,nonatomic) int currentQuestion;
 

@@ -1,5 +1,5 @@
 //
-//  MVPBasePresenter.h
+//  MVPGamePlayPresenter.h
 //  DesignPatterns
 //
 //  Created by Gautham Krishna Ballal on 07/04/16.
@@ -7,12 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "MVPBasePresenter.h"
 
-@interface MVPBasePresenter : NSObject
--(void)loadData;
--(id)itemAtIndex:(NSInteger)index;
--(NSInteger)totalItems;
-
--(void)cellTappedAtIndex:(NSInteger)index;
+@interface MVPGamePlayPresenter : MVPBasePresenter
 
 @end

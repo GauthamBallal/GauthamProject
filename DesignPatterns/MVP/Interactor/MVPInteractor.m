@@ -8,6 +8,11 @@
 
 #import "MVPInteractor.h"
 #import "GKBDataSourceManager.h"
+#import "GKBTest.h"
+
+@interface MVPInteractor ()
+@property (nonatomic,strong) GKBTest *selectedTest;
+@end
 
 @implementation MVPInteractor
 static MVPInteractor *sharedObject = nil;
@@ -25,4 +30,15 @@ static MVPInteractor *sharedObject = nil;
 {
     return [[GKBDataSourceManager sharedGKBDataSourceManager] getAllTests];
 }
+
+-(void)setSelectedTest:(GKBTest *)selectedTest
+{
+    _selectedTest = selectedTest;
+}
+
+-(NSArray*)getAllQuestions
+{
+    return [self.selectedTest.questions allObjects];
+}
+
 @end

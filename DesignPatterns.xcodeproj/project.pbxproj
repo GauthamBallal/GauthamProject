@@ -137,6 +137,8 @@
 		ACDB1A771CB63FED00FA56D3 /* MVPInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = ACDB1A761CB63FED00FA56D3 /* MVPInteractor.m */; };
 		ACDB1A7C1CB6481100FA56D3 /* MVPPackageListingPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = ACDB1A7B1CB6481100FA56D3 /* MVPPackageListingPresenter.m */; };
 		ACDB1A7F1CB6483B00FA56D3 /* MVPBasePresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = ACDB1A7E1CB6483B00FA56D3 /* MVPBasePresenter.m */; };
+		ACDB1A8C1CB6867400FA56D3 /* MVPGamePlayPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = ACDB1A8B1CB6867400FA56D3 /* MVPGamePlayPresenter.m */; };
+		ACDB1A931CB686A800FA56D3 /* MVPGamePlayViewImplementation.m in Sources */ = {isa = PBXBuildFile; fileRef = ACDB1A921CB686A800FA56D3 /* MVPGamePlayViewImplementation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -260,6 +262,12 @@
 		ACDB1A7B1CB6481100FA56D3 /* MVPPackageListingPresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVPPackageListingPresenter.m; sourceTree = "<group>"; };
 		ACDB1A7D1CB6483B00FA56D3 /* MVPBasePresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVPBasePresenter.h; sourceTree = "<group>"; };
 		ACDB1A7E1CB6483B00FA56D3 /* MVPBasePresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVPBasePresenter.m; sourceTree = "<group>"; };
+		ACDB1A8A1CB6867400FA56D3 /* MVPGamePlayPresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVPGamePlayPresenter.h; sourceTree = "<group>"; };
+		ACDB1A8B1CB6867400FA56D3 /* MVPGamePlayPresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVPGamePlayPresenter.m; sourceTree = "<group>"; };
+		ACDB1A901CB686A800FA56D3 /* MVPGameplayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVPGameplayView.h; sourceTree = "<group>"; };
+		ACDB1A911CB686A800FA56D3 /* MVPGamePlayViewImplementation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVPGamePlayViewImplementation.h; sourceTree = "<group>"; };
+		ACDB1A921CB686A800FA56D3 /* MVPGamePlayViewImplementation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVPGamePlayViewImplementation.m; sourceTree = "<group>"; };
+		ACDB1A941CB686DD00FA56D3 /* MVPGamePlayInteractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVPGamePlayInteractor.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -344,6 +352,9 @@
 				ACDB1A7D1CB6483B00FA56D3 /* MVPBasePresenter.h */,
 				ACDB1A7E1CB6483B00FA56D3 /* MVPBasePresenter.m */,
 				ACDB1A781CB6481100FA56D3 /* PackageListing */,
+				ACDB1A841CB66FBA00FA56D3 /* GamePlay */,
+				ACDB1A851CB66FBA00FA56D3 /* Result */,
+				ACDB1A831CB66FBA00FA56D3 /* AllAnswers */,
 			);
 			path = Presenter;
 			sourceTree = "<group>";
@@ -351,6 +362,9 @@
 		ACB2D2961CB5040900329271 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				ACDB1A8D1CB6869E00FA56D3 /* AllAnswers */,
+				ACDB1A8E1CB6869E00FA56D3 /* GamePlay */,
+				ACDB1A8F1CB6869E00FA56D3 /* Result */,
 				ACB2D2991CB504AA00329271 /* PackageListing */,
 			);
 			path = Views;
@@ -805,6 +819,54 @@
 			path = PackageListing;
 			sourceTree = "<group>";
 		};
+		ACDB1A831CB66FBA00FA56D3 /* AllAnswers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = AllAnswers;
+			sourceTree = "<group>";
+		};
+		ACDB1A841CB66FBA00FA56D3 /* GamePlay */ = {
+			isa = PBXGroup;
+			children = (
+				ACDB1A941CB686DD00FA56D3 /* MVPGamePlayInteractor.h */,
+				ACDB1A8A1CB6867400FA56D3 /* MVPGamePlayPresenter.h */,
+				ACDB1A8B1CB6867400FA56D3 /* MVPGamePlayPresenter.m */,
+			);
+			path = GamePlay;
+			sourceTree = "<group>";
+		};
+		ACDB1A851CB66FBA00FA56D3 /* Result */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Result;
+			sourceTree = "<group>";
+		};
+		ACDB1A8D1CB6869E00FA56D3 /* AllAnswers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = AllAnswers;
+			sourceTree = "<group>";
+		};
+		ACDB1A8E1CB6869E00FA56D3 /* GamePlay */ = {
+			isa = PBXGroup;
+			children = (
+				ACDB1A901CB686A800FA56D3 /* MVPGameplayView.h */,
+				ACDB1A911CB686A800FA56D3 /* MVPGamePlayViewImplementation.h */,
+				ACDB1A921CB686A800FA56D3 /* MVPGamePlayViewImplementation.m */,
+			);
+			path = GamePlay;
+			sourceTree = "<group>";
+		};
+		ACDB1A8F1CB6869E00FA56D3 /* Result */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Result;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -973,11 +1035,13 @@
 				ACB3E3C31C7AE1900070B6A5 /* GKBNavigationBar.m in Sources */,
 				ACDB1A771CB63FED00FA56D3 /* MVPInteractor.m in Sources */,
 				ACB8A2A21C7C79C000ECDA20 /* MMVMGamePlayViewModel.m in Sources */,
+				ACDB1A8C1CB6867400FA56D3 /* MVPGamePlayPresenter.m in Sources */,
 				ACB3E4031C7AE27D0070B6A5 /* MVCOptionsTableViewCell.m in Sources */,
 				ACB3E3C91C7AE1900070B6A5 /* CDSettingsModel.m in Sources */,
 				ACB3E4201C7B16760070B6A5 /* NSString+DesignPatterns.m in Sources */,
 				ACB3E3D41C7AE1B40070B6A5 /* designpatterns.xcdatamodeld in Sources */,
 				AC9F4C611C7DC4B80081A7A9 /* MMVMResultView.m in Sources */,
+				ACDB1A931CB686A800FA56D3 /* MVPGamePlayViewImplementation.m in Sources */,
 				ACB8A2971C7C6EA600ECDA20 /* MMVMPackageListingViewModel.m in Sources */,
 				ACB3E3BD1C7AE1900070B6A5 /* GKBTest+CoreDataProperties.m in Sources */,
 				ACB3E3B11C7AE1900070B6A5 /* GKBDataConverter.m in Sources */,
