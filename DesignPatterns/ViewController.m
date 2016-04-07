@@ -42,6 +42,12 @@
     [self pushViewController:login withAnimation:YES];
 }
 
+-(void)displayMVPHomeController
+{
+    UIViewController *login = [[UIStoryboard gameMVPStoryBoard] instantiateInitialViewController];
+    [self pushViewController:login withAnimation:YES];
+}
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
@@ -118,6 +124,11 @@
         case eMMVM:
         {
             [self displayMMVMHomeController];
+            break;
+        }
+        case eMVP:
+        {
+            [self displayMVPHomeController];
             break;
         }
         default:

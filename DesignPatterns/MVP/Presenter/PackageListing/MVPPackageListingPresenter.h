@@ -9,9 +9,13 @@
 #import <Foundation/Foundation.h>
 #import "MVPPackageListingView.h"
 #import "MVPPackageListingInteractor.h"
+#import "MVPBasePresenter.h"
 
-@interface MVPPackageListingPresenter : NSObject
+@interface MVPPackageListingPresenter : MVPBasePresenter
+
+- (instancetype)initWithView:(id<MVPPackageListingView>)view;
 
 @property (nonatomic, weak) id <MVPPackageListingView> view;
 @property (nonatomic, weak) id <MVPPackageListingInteractor> interactor;
+
 @end

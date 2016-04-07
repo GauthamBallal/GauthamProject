@@ -24,4 +24,9 @@
 {
     return [UIStoryboard storyboardWithName:@"MMVMGameStoryboard" bundle:nil];
 }
+
++(UIStoryboard*)gameMVPStoryBoard
+{
+    return [UIStoryboard storyboardWithName:@"MVPStoryboard" bundle:nil];
+}
 @end

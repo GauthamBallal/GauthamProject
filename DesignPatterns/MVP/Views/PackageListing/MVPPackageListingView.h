@@ -9,5 +9,6 @@
 #import <Foundation/Foundation.h>
 
 @protocol MVPPackageListingView <NSObject>
-
+-(void)loadDataToView;
+-(void)noDataAvailable;
 @end
