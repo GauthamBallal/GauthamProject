@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MVPGamePlayView.h"
 
-@interface MVPGamePlayViewImplementation : UIViewController
+@interface MVPGamePlayViewImplementation : GKBSuperViewController <MVPGamePlayView>
 
 @end

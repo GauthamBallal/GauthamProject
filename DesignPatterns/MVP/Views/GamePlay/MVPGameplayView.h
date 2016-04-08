@@ -8,6 +8,10 @@
 
 #import <Foundation/Foundation.h>
 
-@protocol MVPGameplayView <NSObject>
+@protocol MVPGamePlayView <NSObject>
+-(void)loadDataToView;
 
+-(void)setTimerText:(NSString*)timetoSet;
+
+-(void)noDataAvailable;
 @end

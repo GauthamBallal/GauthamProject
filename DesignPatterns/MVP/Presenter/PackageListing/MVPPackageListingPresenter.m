@@ -8,6 +8,7 @@
 
 #import "MVPPackageListingPresenter.h"
 #import "MVPInteractor.h"
+#import "MVPGamePlayViewImplementation.h"
 
 @interface MVPPackageListingPresenter ()
 @property(nonatomic,strong) NSArray *testsArray;
@@ -50,7 +51,7 @@
 -(void)cellTappedAtIndex:(NSInteger)index
 {
     [self.interactor setSelectedTest:_testsArray[index]];
-//    MMVMGamePlayView *gameViewController = [[UIStoryboard gameMMVMStoryBoard] instantiateViewControllerWithIdentifier:@"CDGamePlayVC"];
-//    [BASE_VIEWCONTROLLER pushViewController:gameViewController withAnimation:YES];
+    MVPGamePlayViewImplementation *gameViewController = [[UIStoryboard gameMVPStoryBoard] instantiateViewControllerWithIdentifier:@"CDGamePlayVC"];
+    [BASE_VIEWCONTROLLER pushViewController:gameViewController withAnimation:YES];
 }
 @end

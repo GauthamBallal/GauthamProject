@@ -8,8 +8,9 @@
 
 #import <Foundation/Foundation.h>
 #import "MVPPackageListingInteractor.h"
+#import "MVPGamePlayInteractor.h"
 
-@interface MVPInteractor : NSObject <MVPPackageListingInteractor>
+@interface MVPInteractor : NSObject <MVPPackageListingInteractor,MVPGamePlayInteractor>
 
 + (MVPInteractor*)sharedMVPInteractor;
 @end

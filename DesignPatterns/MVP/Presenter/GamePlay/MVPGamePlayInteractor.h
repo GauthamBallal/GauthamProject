@@ -10,4 +10,5 @@
 
 @protocol MVPGamePlayInteractor <NSObject>
 
+-(NSArray*)getAllQuestions;
 @end

@@ -24,4 +24,9 @@
 {
     return 0;
 }
+
+-(void)cellTappedAtIndex:(NSInteger)index
+{
+    
+}
 @end

@@ -9,6 +9,6 @@
 #import <UIKit/UIKit.h>
 #import "MVPPackageListingView.h"
 
-@interface MVPPackageListingViewImplementation : UIViewController <MVPPackageListingView>
+@interface MVPPackageListingViewImplementation : GKBSuperViewController <MVPPackageListingView>
 
 @end
