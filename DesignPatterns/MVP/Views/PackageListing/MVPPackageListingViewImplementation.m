@@ -65,7 +65,7 @@
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     GKBTest *test = [self.presenter itemAtIndex:indexPath.row];
-    MVCListingTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"ListingCell" forIndexPath:indexPath];
+    MVCListingTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"ListingCell"];
     [cell constructCellWithTest:test];
     return cell;
 }

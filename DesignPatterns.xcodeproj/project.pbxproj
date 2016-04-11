@@ -134,6 +134,8 @@
 		ACB8A2A21C7C79C000ECDA20 /* MMVMGamePlayViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB8A2A11C7C79C000ECDA20 /* MMVMGamePlayViewModel.m */; };
 		ACB8A2A31C7C79C000ECDA20 /* MMVMGamePlayViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB8A2A11C7C79C000ECDA20 /* MMVMGamePlayViewModel.m */; };
 		ACB8A2A41C7C79C000ECDA20 /* MMVMGamePlayViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB8A2A11C7C79C000ECDA20 /* MMVMGamePlayViewModel.m */; };
+		ACB9C0E81CBBA85400BBC0D3 /* MVPResultsPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB9C0E71CBBA85400BBC0D3 /* MVPResultsPresenter.m */; };
+		ACB9C0ED1CBBA8D000BBC0D3 /* MVPResultViewImplementation.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB9C0EC1CBBA8D000BBC0D3 /* MVPResultViewImplementation.m */; };
 		ACDB1A771CB63FED00FA56D3 /* MVPInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = ACDB1A761CB63FED00FA56D3 /* MVPInteractor.m */; };
 		ACDB1A7C1CB6481100FA56D3 /* MVPPackageListingPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = ACDB1A7B1CB6481100FA56D3 /* MVPPackageListingPresenter.m */; };
 		ACDB1A7F1CB6483B00FA56D3 /* MVPBasePresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = ACDB1A7E1CB6483B00FA56D3 /* MVPBasePresenter.m */; };
@@ -255,6 +257,12 @@
 		ACB8A2A01C7C79C000ECDA20 /* MMVMGamePlayViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMVMGamePlayViewModel.h; sourceTree = "<group>"; };
 		ACB8A2A11C7C79C000ECDA20 /* MMVMGamePlayViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMVMGamePlayViewModel.m; sourceTree = "<group>"; };
 		ACB8A2A51C7C806700ECDA20 /* MMVMPackageListingInterface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMVMPackageListingInterface.h; sourceTree = "<group>"; };
+		ACB9C0E61CBBA85400BBC0D3 /* MVPResultsPresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVPResultsPresenter.h; sourceTree = "<group>"; };
+		ACB9C0E71CBBA85400BBC0D3 /* MVPResultsPresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVPResultsPresenter.m; sourceTree = "<group>"; };
+		ACB9C0E91CBBA86A00BBC0D3 /* MVPResultsInteractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVPResultsInteractor.h; sourceTree = "<group>"; };
+		ACB9C0EA1CBBA8B500BBC0D3 /* MVPResultView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVPResultView.h; sourceTree = "<group>"; };
+		ACB9C0EB1CBBA8D000BBC0D3 /* MVPResultViewImplementation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVPResultViewImplementation.h; sourceTree = "<group>"; };
+		ACB9C0EC1CBBA8D000BBC0D3 /* MVPResultViewImplementation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVPResultViewImplementation.m; sourceTree = "<group>"; };
 		ACDB1A751CB63FED00FA56D3 /* MVPInteractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVPInteractor.h; sourceTree = "<group>"; };
 		ACDB1A761CB63FED00FA56D3 /* MVPInteractor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVPInteractor.m; sourceTree = "<group>"; };
 		ACDB1A791CB6481100FA56D3 /* MVPPackageListingInteractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVPPackageListingInteractor.h; sourceTree = "<group>"; };
@@ -839,6 +847,9 @@
 		ACDB1A851CB66FBA00FA56D3 /* Result */ = {
 			isa = PBXGroup;
 			children = (
+				ACB9C0E91CBBA86A00BBC0D3 /* MVPResultsInteractor.h */,
+				ACB9C0E61CBBA85400BBC0D3 /* MVPResultsPresenter.h */,
+				ACB9C0E71CBBA85400BBC0D3 /* MVPResultsPresenter.m */,
 			);
 			path = Result;
 			sourceTree = "<group>";
@@ -863,6 +874,9 @@
 		ACDB1A8F1CB6869E00FA56D3 /* Result */ = {
 			isa = PBXGroup;
 			children = (
+				ACB9C0EA1CBBA8B500BBC0D3 /* MVPResultView.h */,
+				ACB9C0EB1CBBA8D000BBC0D3 /* MVPResultViewImplementation.h */,
+				ACB9C0EC1CBBA8D000BBC0D3 /* MVPResultViewImplementation.m */,
 			);
 			path = Result;
 			sourceTree = "<group>";
@@ -1037,6 +1051,7 @@
 				ACB8A2A21C7C79C000ECDA20 /* MMVMGamePlayViewModel.m in Sources */,
 				ACDB1A8C1CB6867400FA56D3 /* MVPGamePlayPresenter.m in Sources */,
 				ACB3E4031C7AE27D0070B6A5 /* MVCOptionsTableViewCell.m in Sources */,
+				ACB9C0E81CBBA85400BBC0D3 /* MVPResultsPresenter.m in Sources */,
 				ACB3E3C91C7AE1900070B6A5 /* CDSettingsModel.m in Sources */,
 				ACB3E4201C7B16760070B6A5 /* NSString+DesignPatterns.m in Sources */,
 				ACB3E3D41C7AE1B40070B6A5 /* designpatterns.xcdatamodeld in Sources */,
@@ -1055,6 +1070,7 @@
 				ACDB1A7C1CB6481100FA56D3 /* MVPPackageListingPresenter.m in Sources */,
 				ACB3E33C1C7AE1530070B6A5 /* main.m in Sources */,
 				ACB3E3CC1C7AE1900070B6A5 /* GKBPaddedTextField.m in Sources */,
+				ACB9C0ED1CBBA8D000BBC0D3 /* MVPResultViewImplementation.m in Sources */,
 				AC9F4C791C7DD05F0081A7A9 /* MMVMAllAnswersTableViewCell.m in Sources */,
 				ACB8A29C1C7C799D00ECDA20 /* MMVMGamePlayView.m in Sources */,
 				ACB3E3B41C7AE1900070B6A5 /* GKBDataSourceManager.m in Sources */,

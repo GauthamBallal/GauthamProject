@@ -11,4 +11,5 @@
 @protocol MVPGamePlayInteractor <NSObject>
 
 -(NSArray*)getAllQuestions;
+-(void)setUsersAnswers:(NSArray*)userAnswers;
 @end

@@ -9,6 +9,7 @@
 #import "MVPGamePlayPresenter.h"
 #import "MVPInteractor.h"
 #import "GKBQuestion.h"
+#import "MVPResultViewImplementation.h"
 
 @interface MVPGamePlayPresenter ()
 @property (assign,nonatomic) int currentTime;
@@ -109,10 +110,10 @@
         [self.timer invalidate];
         self.timer = nil;
     }
+    [self.interactor setUsersAnswers:self.questionsArray];
     
-//    MMVMResultView *allAnswers = [[UIStoryboard gameMMVMStoryBoard] instantiateViewControllerWithIdentifier:@"CDResultChartVC"];
-//    allAnswers.viewModel.answers = self.questionsArray;
-//    [BASE_VIEWCONTROLLER pushViewController:allAnswers withAnimation:YES];
+    MVPResultViewImplementation *allAnswers = [[UIStoryboard gameMVPStoryBoard] instantiateViewControllerWithIdentifier:@"CDResultChartVC"];
+    [BASE_VIEWCONTROLLER pushViewController:allAnswers withAnimation:YES];
 }
 
 -(NSString*)getTimeForSeconds:(int)time

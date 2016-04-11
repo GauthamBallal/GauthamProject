@@ -12,6 +12,7 @@
 
 @interface MVPInteractor ()
 @property (nonatomic,strong) GKBTest *selectedTest;
+@property (nonatomic,strong) NSArray *answers;
 @end
 
 @implementation MVPInteractor
@@ -40,5 +41,17 @@ static MVPInteractor *sharedObject = nil;
 {
     return [self.selectedTest.questions allObjects];
 }
+
+-(void)setUsersAnswers:(NSArray*)userAnswers
+{
+    _answers = userAnswers;
+}
+
+
+-(NSArray*)getAllAnswers
+{
+    return [self.selectedTest.questions allObjects];
+}
+
 
 @end

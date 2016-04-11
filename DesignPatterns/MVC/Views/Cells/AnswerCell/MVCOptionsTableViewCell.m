@@ -50,9 +50,12 @@
 
 -(void)setOptionText:(NSString*)optionText
 {
-    [self.optionButton setHeight:(self.frame.size.height - 15)];
-
-    [self.optionButton setAttributedTitle:[self getAttributedStringFromString:optionText] forState:UIControlStateNormal];
+    if(optionText)
+    {
+        [self.optionButton setHeight:(self.frame.size.height - 15)];
+        
+        [self.optionButton setAttributedTitle:[self getAttributedStringFromString:optionText] forState:UIControlStateNormal];
+    }
 }
 
 

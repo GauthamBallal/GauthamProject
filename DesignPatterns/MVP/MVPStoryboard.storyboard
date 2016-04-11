@@ -21,6 +21,8 @@
             <string>HelveticaNeueLTStd-Roman</string>
             <string>HelveticaNeueLTStd-Roman</string>
             <string>HelveticaNeueLTStd-Roman</string>
+            <string>HelveticaNeueLTStd-Roman</string>
+            <string>HelveticaNeueLTStd-Roman</string>
         </mutableArray>
     </customFonts>
     <scenes>
@@ -94,6 +96,13 @@
                                                         </label>
                                                     </subviews>
                                                 </tableViewCellContentView>
+                                                <connections>
+                                                    <outlet property="freeOrPaiedImageView" destination="97U-eD-dOw" id="ykr-Lj-0m7"/>
+                                                    <outlet property="imageTitleLabel" destination="oJ8-1C-5ec" id="sXb-kV-ed2"/>
+                                                    <outlet property="packageDescriptionLabel" destination="U31-dn-fOa" id="QrQ-Nu-fIQ"/>
+                                                    <outlet property="packageImageView" destination="g0U-pz-Bzk" id="p5K-iK-jqc"/>
+                                                    <outlet property="packageTitleLabel" destination="43u-Ih-RDl" id="OuO-P7-RQq"/>
+                                                </connections>
                                             </tableViewCell>
                                         </prototypes>
                                         <connections>
@@ -105,7 +114,7 @@
                                         <rect key="frame" x="8" y="241" width="304" height="21"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
@@ -320,7 +329,7 @@
                                 <rect key="frame" x="10" y="74" width="304" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
@@ -343,6 +352,61 @@
             </objects>
             <point key="canvasLocation" x="750" y="369"/>
         </scene>
+        <!--Result View Implementation-->
+        <scene sceneID="F2S-rN-Cfc">
+            <objects>
+                <viewController storyboardIdentifier="CDResultChartVC" id="btN-9U-ut1" customClass="MVPResultViewImplementation" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="z5y-h7-lL6">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" id="hSe-Ug-cX6">
+                                <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <subviews>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="listing_header" id="cQg-Fy-WVI">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="41"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Result" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Fer-di-AwH">
+                                        <rect key="frame" x="93" y="8" width="135" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeueLTStd-Roman" family="Helvetica Neue LT Std" pointSize="16"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="JIB-ah-tlH">
+                                        <rect key="frame" x="98" y="376" width="124" height="33"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                        <state key="normal" title="Show Answers" backgroundImage="result_shw_ansers">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="showAnswersButtonTapped:" destination="btN-9U-ut1" eventType="touchUpInside" id="Cle-wn-2en"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="8/10" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="vgF-Mi-2LS">
+                                        <rect key="frame" x="20" y="37" width="280" height="331"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeueLTStd-Roman" family="Helvetica Neue LT Std" pointSize="100"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="resultLabel" destination="vgF-Mi-2LS" id="aFp-dM-Yzu"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ACP-GP-9KT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1133" y="369"/>
+        </scene>
     </scenes>
     <resources>
         <image name="btm_bar" width="320" height="56"/>
@@ -353,6 +417,7 @@
         <image name="listing_label_buy" width="26" height="68"/>
         <image name="overlay" width="320" height="568"/>
         <image name="popover" width="236" height="128"/>
+        <image name="result_shw_ansers" width="124" height="33"/>
         <image name="test_1" width="84" height="119"/>
     </resources>
 </document>
