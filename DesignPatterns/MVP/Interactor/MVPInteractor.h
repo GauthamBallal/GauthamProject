@@ -10,8 +10,9 @@
 #import "MVPPackageListingInteractor.h"
 #import "MVPGamePlayInteractor.h"
 #import "MVPResultsInteractor.h"
+#import "MVPAllAnswerInteractor.h"
 
-@interface MVPInteractor : NSObject <MVPPackageListingInteractor,MVPGamePlayInteractor,MVPResultsInteractor>
+@interface MVPInteractor : NSObject <MVPPackageListingInteractor,MVPGamePlayInteractor,MVPResultsInteractor,MVPAllAnswerInteractor>
 
 + (MVPInteractor*)sharedMVPInteractor;
 @end

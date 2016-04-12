@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC182D561CBCC44A0015E2E2 /* MVPAllAnswersPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = AC182D551CBCC44A0015E2E2 /* MVPAllAnswersPresenter.m */; };
+		AC182D5B1CBCC4940015E2E2 /* MVPAllAnswersViewImplementation.m in Sources */ = {isa = PBXBuildFile; fileRef = AC182D5A1CBCC4940015E2E2 /* MVPAllAnswersViewImplementation.m */; };
 		AC9F4C611C7DC4B80081A7A9 /* MMVMResultView.m in Sources */ = {isa = PBXBuildFile; fileRef = AC9F4C601C7DC4B80081A7A9 /* MMVMResultView.m */; };
 		AC9F4C621C7DC4B80081A7A9 /* MMVMResultView.m in Sources */ = {isa = PBXBuildFile; fileRef = AC9F4C601C7DC4B80081A7A9 /* MMVMResultView.m */; };
 		AC9F4C631C7DC4B80081A7A9 /* MMVMResultView.m in Sources */ = {isa = PBXBuildFile; fileRef = AC9F4C601C7DC4B80081A7A9 /* MMVMResultView.m */; };
@@ -161,6 +163,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AC182D541CBCC44A0015E2E2 /* MVPAllAnswersPresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVPAllAnswersPresenter.h; sourceTree = "<group>"; };
+		AC182D551CBCC44A0015E2E2 /* MVPAllAnswersPresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVPAllAnswersPresenter.m; sourceTree = "<group>"; };
+		AC182D571CBCC4640015E2E2 /* MVPAllAnswerInteractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVPAllAnswerInteractor.h; sourceTree = "<group>"; };
+		AC182D581CBCC4790015E2E2 /* MVPAllAnswersView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVPAllAnswersView.h; sourceTree = "<group>"; };
+		AC182D591CBCC4940015E2E2 /* MVPAllAnswersViewImplementation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVPAllAnswersViewImplementation.h; sourceTree = "<group>"; };
+		AC182D5A1CBCC4940015E2E2 /* MVPAllAnswersViewImplementation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVPAllAnswersViewImplementation.m; sourceTree = "<group>"; };
 		AC9F4C571C7D96350081A7A9 /* MMVMGamePlayInterface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMVMGamePlayInterface.h; sourceTree = "<group>"; };
 		AC9F4C5F1C7DC4B80081A7A9 /* MMVMResultView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMVMResultView.h; sourceTree = "<group>"; };
 		AC9F4C601C7DC4B80081A7A9 /* MMVMResultView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMVMResultView.m; sourceTree = "<group>"; };
@@ -830,6 +838,9 @@
 		ACDB1A831CB66FBA00FA56D3 /* AllAnswers */ = {
 			isa = PBXGroup;
 			children = (
+				AC182D571CBCC4640015E2E2 /* MVPAllAnswerInteractor.h */,
+				AC182D541CBCC44A0015E2E2 /* MVPAllAnswersPresenter.h */,
+				AC182D551CBCC44A0015E2E2 /* MVPAllAnswersPresenter.m */,
 			);
 			path = AllAnswers;
 			sourceTree = "<group>";
@@ -857,6 +868,9 @@
 		ACDB1A8D1CB6869E00FA56D3 /* AllAnswers */ = {
 			isa = PBXGroup;
 			children = (
+				AC182D581CBCC4790015E2E2 /* MVPAllAnswersView.h */,
+				AC182D591CBCC4940015E2E2 /* MVPAllAnswersViewImplementation.h */,
+				AC182D5A1CBCC4940015E2E2 /* MVPAllAnswersViewImplementation.m */,
 			);
 			path = AllAnswers;
 			sourceTree = "<group>";
@@ -1033,8 +1047,10 @@
 			files = (
 				ACB3E3421C7AE1530070B6A5 /* ViewController.m in Sources */,
 				ACB3E4251C7B16A80070B6A5 /* UIFont+DesignPatterns.m in Sources */,
+				AC182D5B1CBCC4940015E2E2 /* MVPAllAnswersViewImplementation.m in Sources */,
 				AC9F4C731C7DCCD30081A7A9 /* MMVMAllAnswersViewModel.m in Sources */,
 				ACB3E3AE1C7AE1900070B6A5 /* GKBCoreData.m in Sources */,
+				AC182D561CBCC44A0015E2E2 /* MVPAllAnswersPresenter.m in Sources */,
 				ACB3E33F1C7AE1530070B6A5 /* AppDelegate.m in Sources */,
 				AC9F4C661C7DC4D10081A7A9 /* MMVMResultViewModel.m in Sources */,
 				ACB3E3FA1C7AE27D0070B6A5 /* MVCPackageListingViewController.m in Sources */,

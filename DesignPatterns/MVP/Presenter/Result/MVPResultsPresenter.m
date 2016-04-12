@@ -9,7 +9,7 @@
 #import "MVPResultsPresenter.h"
 #import "GKBQuestion.h"
 #import "MVPInteractor.h"
-#import "MVPResultViewImplementation.h"
+#import "MVPAllAnswersViewImplementation.h"
 
 @interface MVPResultsPresenter ()
 @property (nonatomic,strong) NSArray *answers;
@@ -52,8 +52,8 @@
 
 -(void)showAllAnswerButonTapped
 {
-//    MVPResultViewImplementation *allAnswers = [[UIStoryboard gameMVPStoryBoard] instantiateViewControllerWithIdentifier:@"CDAllAnswersVC"];
-//    [BASE_VIEWCONTROLLER pushViewController:allAnswers withAnimation:YES];
+    MVPAllAnswersViewImplementation *allAnswers = [[UIStoryboard gameMVPStoryBoard] instantiateViewControllerWithIdentifier:@"CDAllAnswersVC"];
+    [BASE_VIEWCONTROLLER pushViewController:allAnswers withAnimation:YES];
 }
 
 @end
