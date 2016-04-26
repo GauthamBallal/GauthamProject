@@ -378,10 +378,10 @@
 		ACB2D2961CB5040900329271 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				ACDB1A8D1CB6869E00FA56D3 /* AllAnswers */,
+				ACB2D2991CB504AA00329271 /* PackageListing */,
 				ACDB1A8E1CB6869E00FA56D3 /* GamePlay */,
 				ACDB1A8F1CB6869E00FA56D3 /* Result */,
-				ACB2D2991CB504AA00329271 /* PackageListing */,
+				ACDB1A8D1CB6869E00FA56D3 /* AllAnswers */,
 			);
 			path = Views;
 			sourceTree = "<group>";

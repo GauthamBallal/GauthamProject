@@ -60,7 +60,7 @@
     [customNavigationBar shouldHideHintButton:YES];
     viewControllerToBePushed.navigationItem.hidesBackButton = YES;
     
-    [self.navigationController pushViewController:viewControllerToBePushed animated:animation];
+    [self.navigationController pushViewController:viewControllerToBePushed animated:NO];
 }
 
 -(void)popViewControllerAnimated:(BOOL)animation
